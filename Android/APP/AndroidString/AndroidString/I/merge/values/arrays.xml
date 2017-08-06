@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="jingle_pintu_bgcolor_arr">
+        <item>@color/jingle_pintu_bgcolor_default</item>
+        <item>@color/jingle_pintu_bgcolor_black</item>
+        <item>@color/jingle_pintu_bgcolor_white</item>
+        <item>@color/jingle_pintu_bgcolor_redwhite</item>
+        <item>@color/jingle_pintu_bgcolor_bluewhite</item>
+        <item>@color/jingle_pintu_bgcolor_greenwhite</item>
+        <item>@color/jingle_pintu_bgcolor_yellowdark</item>
+        <item>@color/jingle_pintu_bgcolor_red</item>
+        <item>@color/jingle_pintu_bgcolor_green</item>
+        <item>@color/jingle_pintu_bgcolor_blue</item>
+        <item>@color/jingle_pintu_bgcolor_lightblue</item>
+        <item>@color/jingle_pintu_bgcolor_redpurple</item>
+        <item>@color/jingle_pintu_bgcolor_yellowbright</item>
+        <item>@color/jingle_pintu_bgcolor_bluesky</item>
+        <item>@color/jingle_pintu_bgcolor_bluepurple</item>
+        <item>@color/jingle_pintu_bgcolor_orangedark</item>
+    </array>
+    
+    <string-array name="atpv_gallery_preferences_array_hdp_gddh" translatable="false">
+        <item>@string/set_hdp_gddh_1</item>
+        <item>@string/set_hdp_gddh_2</item>
+        <item>@string/set_hdp_gddh_3</item>
+        <item>@string/set_hdp_gddh_4</item>
+        <item>@string/set_hdp_gddh_5</item>
+    </string-array>
+    <string-array name="atpv_gallery_preferences_array_hdp_bfjg" translatable="false">
+        <item>@string/set_hdp_bgjg_3</item>
+        <item>@string/set_hdp_bgjg_5</item>
+        <item>@string/set_hdp_bgjg_10</item>
+    </string-array>
+    
+    <string-array name="atpv_gallery_pintu_bg_array" translatable="false">
+        <item>@string/jingle_pintu_bjsel_chunse</item>
+        <item>@string/jingle_pintu_bjsel_tupian</item>
+    </string-array>
+
+</resources>
