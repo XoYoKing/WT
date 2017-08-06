@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
 
     <color name="color_accent">#DA4336</color>
@@ -56,8 +56,8 @@
     <!-- Grid-Time-Label -->
     <color name="time_label_text_textcolor">#b2000000</color>
     <!-- Grid-Time-Media_Item -->
-    <color name="photo_bottom_bar_color">#4f4f4f</color>
-    <color name="photo_navibar_color">#B2000000</color>
+    <color name="photo_bottom_bar_color">#4c000000</color>
+    <color name="photo_navibar_color">#4c000000</color>
     <!-- slideshow -->
     <color name="slideshow_background">#FF000000</color><!-- #1A1A1A -->
     <color name="colorPrimary">#3F51B5</color>
@@ -91,6 +91,7 @@
     <color name="filtershow_dialog_text_color">#000000</color>
     <color name="filtershow_btn_text_color_white">#FFFFFFFF</color>
     <color name="filtershow_btn_text_color_50_white">#80FFFFFF</color>
+    <color name="filtershow_control_mask">#A2000000</color>
     <!--dialog-->
     <color name="dialog_button_text_color">#EC4371</color>
     <color name="dialog_button_text_color_enablefalse">#7F000000</color>
@@ -101,4 +102,7 @@
     <color name="list_view_edge_line">#19000000</color>
     <color name="list_item_click_bg">#19000000</color>
     <color name="albumset_timeline_text_color">#B2000000</color>
+    <color name="preference_category_bg">#4CEC4371</color>
+    <color name="m_button_dark_background">#6000</color>
+    <color name="refoucs_seekbar_color">#EEAF00</color>
 </resources>

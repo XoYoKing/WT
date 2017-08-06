@@ -4,12 +4,18 @@
         Base application theme, dependent on API level. This theme is replaced
         by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
     -->
-    <style name="AppBaseTheme" parent="android:Theme.Material">
+    <style name="AppBaseTheme" parent="FreelyAppTheme.Activity">
         <!--
             Theme customizations available in newer API levels can go in
             res/values-vXX/styles.xml, while customizations related to
             backward-compatibility can go here.
         -->
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="alertDialogTheme">@style/AppTheme.AlertDialog</item>
+    </style>
+
+    <style name="AppTheme.AlertDialog" parent="FreelyAppStyle.AlertDialog">
+        <item name="colorAccent">@color/colorAccent</item>
     </style>
 
     <!-- Application theme. -->
@@ -46,13 +52,24 @@
         <item name="android:windowIsFloating">true</item>
     </style>
 
-    <style name="SettingTheme" parent="AppTheme">
-        <item name="android:windowTranslucentStatus">true</item>
-        <item name="android:switchPreferenceStyle">@style/tpvPreference.SwithcPreferenceStyle</item>
-        <item name="android:switchStyle">@style/tpvSwitchStyle</item>
-        <item name="android:preferenceCategoryStyle">@style/tpvPreference.tpvCategory</item>
-        <item name="android:dialogPreferenceStyle">@style/tpvPreference.tpvdialogPreferenceStyle</item>
-        <item name="android:alertDialogTheme">@style/AlertDialogThemeBaseSetting</item>
+
+    <style name="AppTheme.Settings" parent="FreelyAppTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/bg_gallery_primary</item>
+        <item name="colorPrimaryDark">@color/status_bar_background_color</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="alertDialogTheme">@style/AppTheme.AlertDialog</item>
+        <item name="colorPreferenceCategoryBackground">@color/preference_category_bg</item>
+    </style>
+
+    <style name="SettingTheme" parent="AppTheme.Settings">
+        <!--<item name="android:windowTranslucentStatus">true</item>-->
+        <!--<item name="android:switchPreferenceStyle">@style/tpvPreference.SwithcPreferenceStyle</item>-->
+        <!--<item name="android:switchStyle">@style/tpvSwitchStyle</item>-->
+        <!--<item name="android:preferenceCategoryStyle">@style/tpvPreference.tpvCategory</item>-->
+        <!--<item name="android:dialogPreferenceStyle">@style/tpvPreference.tpvdialogPreferenceStyle</item>-->
+        <!--<item name="android:alertDialogTheme">@style/AlertDialogThemeBaseSetting</item>-->
     </style>
 
     <style name="tpvPreference">
@@ -188,6 +205,16 @@
     </style>
     <style name="dialogedit_bottemline">
         <item name="android:colorControlActivated">@color/dialog_button_text_color</item>
+    </style>
+
+
+    <style name="RefocusTheme" parent="AppTheme">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowBackground">@android:color/black</item>
+    </style>
+
+    <style name="ProgressDialog">
+        <item name="android:background">#99000000</item>
     </style>
 
     <!-- commen style 放在最底部-->

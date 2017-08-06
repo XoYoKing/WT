@@ -43,4 +43,9 @@
         <item>@string/result_list_action_do_slideplay</item>
         <item>@string/result_list_action_do_detial</item>
     </string-array>
+    <string-array name="photopage_more_menu_face">
+        <item>@string/left_rotation</item>
+        <item>@string/right_rotation</item>
+        <item>@string/result_list_action_do_detial</item>
+    </string-array>
 </resources>
