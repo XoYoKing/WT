@@ -1,0 +1,205 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Material">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowDisablePreview">true</item>
+        <!-- 状态栏颜色 -->
+        <item name="android:colorPrimaryDark">@color/status_bar_background_color</item>
+        <!-- 页面背景色 -->
+        <!-- <item name="android:windowBackground">@color/am_title_background_color_start</item> -->
+        <!-- 控制各个控件被选中时的颜色 -->
+        <!-- <item name="android:colorAccent">@color/am_title_background_color_start</item> -->
+        <!-- 底部导航栏颜色 -->
+        <!-- <item name="android:navigationBarColor">@color/am_title_background_color_start</item> -->
+        <!-- Appbar背景色 -->
+        <!-- <item name="android:colorPrimary">@color/am_title_background_color_start</item> -->
+        <!-- ToolBar上的Title颜色 -->
+        <!-- <item name="android:textColorPrimary">@color/am_title_background_color_start</item> -->
+        <!-- 各个控制控件的默认颜色 -->
+        <!-- <item name="android:colorControlNormal">@color/am_title_background_color_start</item> -->
+        <item name="android:fastScrollThumbDrawable">@drawable/fastscroll</item>
+        <item name="android:fastScrollTrackDrawable">@null</item>
+        <item name="android:fastScrollTextColor">@color/default_background_color</item>
+        <item name="android:fastScrollPreviewBackgroundLeft">@null</item>
+        <item name="android:fastScrollOverlayPosition">atThumb</item>
+    </style>
+
+    <style name="LoadingDialog" parent="android:style/Theme.Dialog">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+
+    <style name="SettingTheme" parent="AppTheme">
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:switchPreferenceStyle">@style/tpvPreference.SwithcPreferenceStyle</item>
+        <item name="android:switchStyle">@style/tpvSwitchStyle</item>
+        <item name="android:preferenceCategoryStyle">@style/tpvPreference.tpvCategory</item>
+        <item name="android:dialogPreferenceStyle">@style/tpvPreference.tpvdialogPreferenceStyle</item>
+        <item name="android:alertDialogTheme">@style/AlertDialogThemeBaseSetting</item>
+    </style>
+
+    <style name="tpvPreference">
+    </style>
+
+    <style name="tpvSwitchStyle">
+        <item name="android:thumb">@drawable/switch_thumb</item>
+        <item name="android:track">@drawable/switch_track</item>
+        <item name="android:showText">false</item>
+    </style>
+    <style name="tpvPreference.SwithcPreferenceStyle">
+        <item name="android:layout">@layout/tpv_switch_preference</item>
+    </style>
+
+    <style name="tpvPreference.tpvCategory">
+        <item name="android:layout">@layout/tpv_preference_category</item>
+        <item name="android:shouldDisableView">false</item>
+        <item name="android:selectable">false</item>
+    </style>
+    <style name="tpvPreference.tpvdialogPreferenceStyle">
+        <item name="android:layout">@layout/tpv_list_preference</item>
+    </style>
+
+
+    <style name="filter.ActionButton" parent="android:Widget.Holo.ActionButton">
+        <item name="android:minWidth">34dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingStart">0dip</item>
+        <item name="android:paddingEnd">0dip</item>
+        <item name="android:scaleType">center</item>
+    </style>
+
+
+    <style name="tpvPreference.NoTitleBar.filter" parent="AppTheme">
+        <item name="android:homeAsUpIndicator">@drawable/atpv_gallery_menu_back_selector</item>
+        <item name="android:actionButtonStyle">@style/filter.ActionButton</item>
+        <item name="android:colorAccent">@color/bg_gallery_primary</item>
+        <item name="android:colorPrimary">@color/bg_gallery_primary</item>
+        <item name="android:colorPrimaryDark">@color/color_primary_dark</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="anim_popup_bottombar">
+        <item name="android:windowEnterAnimation">@anim/push_bottom_in</item>
+        <item name="android:windowExitAnimation">@anim/push_bottom_out</item>
+    </style>
+
+    <style name="ListPopupWindowStyle" parent="android:Widget.ListPopupWindow">
+        <item name="android:popupBackground">@color/photo_popwindow_bg</item>
+        <item name="android:dropDownVerticalOffset">0dip</item>
+        <item name="android:dropDownHorizontalOffset">0dip</item>
+    </style>
+
+    <style name="DropDownListViewStyle" parent="android:Widget.ListView.DropDown">
+        <item name="android:divider">@color/color_primary_dark</item>
+        <item name="android:dividerHeight">1px</item>
+    </style>
+
+    <style name="PhotoPageTheme" parent="AppTheme">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:listPopupWindowStyle">@style/ListPopupWindowStyle</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListViewStyle</item>
+    </style>
+
+    <style name="ListCheckBox">
+        <item name="android:layout_gravity">bottom|right</item>
+        <item name="android:focusable">false</item>
+        <item name="android:visibility">visible</item>
+        <item name="android:clickable">false</item>
+        <item name="android:duplicateParentState">true</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:button">@null</item>
+    </style>
+    
+    <!-- filtershow -->
+    <style name="filtershow_effect">
+        <item name="android:gravity">center</item>
+        <item name="android:background">#b2000000</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">45.0dip</item>
+    </style>
+    <style name="filtershow_crop">
+        <item name="android:homeAsUpIndicator">@drawable/atpv_gallery_menu_back_selector</item>
+        <item name="android:actionButtonStyle">@style/filter.ActionButton</item>
+        <item name="android:colorAccent">@color/bg_gallery_primary</item>
+        <item name="android:colorPrimary">@color/bg_gallery_primary</item>
+        <item name="android:colorPrimaryDark">@color/color_primary_dark</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <!-- MTK Video Cut (start)-->
+    <color name="darker_transparent">#C1000000</color>
+    <!-- MTK Video Cut (end)-->
+    
+    <!--dialog-->
+    <style name="dialogbtntext">
+        <item name="android:textSize">@dimen/dialog_button_text_size</item>
+        <item name="android:textColor">@color/dialog_button_text_color</item>
+    </style>
+    <style name="dialogbtntext_simple">
+        <item name="android:textSize">@dimen/dialog_button_text_size_simple</item>
+        <item name="android:textColor">@color/dialog_button_text_color</item>
+    </style>
+    <style name="dialogbtntextenablefalse">
+        <item name="android:textSize">@dimen/dialog_button_text_size</item>
+        <item name="android:textColor">@color/dialog_button_text_color_enablefalse</item>
+    </style>
+    <style name="dialogtitle">
+        <item name="android:textSize">@dimen/dialog_title_text_size</item>
+        <item name="android:textColor">@color/dialog_title_text_color</item>
+     </style>
+    <style name="dialogtitle_simple">
+        <item name="android:textSize">@dimen/dialog_title_text_size_simple</item>
+        <item name="android:textColor">@color/dialog_title_text_color</item>
+    </style>
+    <style name="dialogmessage">
+        <item name="android:textSize">@dimen/dialog_message_text_size</item>
+        <item name="android:textColor">@color/dialog_title_message_color</item>
+    </style>
+    <style name="dialoglistitem">
+        <item name="android:textSize">@dimen/dialog_message_text_size</item>
+        <item name="android:textColor">@color/dialog_title_text_color</item>
+    </style>
+    <style name="dialogprogress">
+        <item name="android:textSize">@dimen/dialog_progress_text_size</item>
+        <item name="android:textColor">@color/dialog_progress_color</item>
+    </style>
+    <style name="dialogedit">
+        <item name="android:textSize">@dimen/dialog_edit_text_size</item>
+        <item name="android:textColor">@drawable/dialog_edit_text_color_selector</item>
+    </style>
+    <style name="dialogedit_bottemline">
+        <item name="android:colorControlActivated">@color/dialog_button_text_color</item>
+    </style>
+
+    <!-- commen style 放在最底部-->
+    <!--
+    <style name="AlertDialogThemeBaseSetting">
+    <style name="AlertDialogThemeBaseSetting" parent="com.tpv:Theme.Tpv.Light.Dialog.Alert">
+    -->
+    <style name="AlertDialogThemeBaseSetting">
+        <item name="android:listChoiceIndicatorSingle">@drawable/atpv_setting_check_selector</item>
+        <item name="android:textSize">@dimen/activity_set_text_size_large</item>
+        <item name="android:textColorAlertDialogListItem">@color/albumset_timeline_text_color</item>
+        <item name="android:colorControlActivated">@color/bg_gallery_primary</item>
+    </style>
+
+</resources>
