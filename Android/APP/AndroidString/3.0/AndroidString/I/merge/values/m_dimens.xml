@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    
+    <dimen name="albumset_title_right_margin_fancy">26dp</dimen>
+    
+</resources>

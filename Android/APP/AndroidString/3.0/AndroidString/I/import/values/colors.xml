@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="color_accent">#DA4336</color>
+    <color name="color_primary_dark">#32000000</color>
+    <color name="status_bar">#80E5E5E5</color>
+    <color name="bg_status_bar">#33000000</color>
+    <color name="bg_status_bar_inphotopage">#B2000000</color>
+    <color name="bg_nav_bar">#000000</color>
+    <color name="top_tab_line">#4C000000</color>
+    <color name="text_line_disabled">#33000000</color>
+    <color name="text_hint_disabled">#7F000000</color>
+    <color name="text_primary_disabled">#dbdbdb</color>
+    <color name="ripple">#80D0D0D0</color>
+
+    <!-- 默认窗体背景色 -->
+    <color name="default_background_color">#FFFFFFFF</color>
+    <!-- 连拍优选窗体背景色 -->
+    <color name="burst_background_color">#000000</color>
+    <!-- 顶部状态栏-窗体背景色 -->
+    <color name="status_bar_background_color">#FF8D1248</color>
+    <!-- 标题栏-窗体背景色 -->
+    <color name="title_bar_background_color_start">#FFA40F53</color>
+    <color name="title_bar_background_color_end">#FFDF396B</color>
+    <!-- 标题栏-窗体背景色-PhotoActivity 简单模式 -->
+    <color name="title_bar_photo_activity_background_color_simple">#4C000000</color>
+    <!-- 标题栏-字体颜色 -->
+    <color name="title_bar_textcolor">#FFFFFFFF</color>
+    <!-- 详情窗口-字体颜色 -->
+    <color name="detial_item_textcolor">#B2000000</color>
+    <color name="detial_item_textcolor_simple">#B2000000</color>
+    <!-- TAB栏-颜色 -->
+    <color name="tab_item_color_normal">#CC000000</color>
+    <color name="tab_item_color_select">#FFFFFFFF</color>
+    <color name="tab_item_textcolor_normal">#FFFFFFFF</color>
+    <color name="tab_item_textcolor_select">#FFEA4371</color>
+    <!-- 阴影栏-顶部 -->
+    <color name="yy_top_bar_color_start">#66000000</color>
+    <color name="yy_top_bar_color_end">#FFFFFFFF</color>
+    <!-- 底部栏-窗体背景色 -->
+    <color name="bottom_bar_color">#e5e5e5</color>
+    <color name="bottom_bar_color_simple">#da366a</color>
+    <color name="bg_gallery_primary">#ec4371</color>
+    <color name="bottom_bar_item_enable_color">#B2000000</color>
+    <color name="bottom_bar_item_disable_color">#4C000000</color>
+    <color name="bottom_bar_item_simple_enable_color">#FFFFFFFF</color>
+    <color name="bottom_bar_item_simple_disable_color">#4C000000</color>
+    <!-- Grid-Album_Item -->
+    <color name="album_grid_item_background_color">#FFBFBFBF</color>
+    <color name="album_item_label_background_color">#4C000000</color>
+    <color name="album_item_label_textcolor">#FFFFFFFF</color>
+    <!-- Grid-Media_Item -->
+    <color name="media_grid_item_background_color">#FFBFBFBF</color>
+    <!-- Grid-Time-Line -->
+    <color name="time_line_background_color">#bfbfbf</color>
+    <!-- Grid-Time-Label -->
+    <color name="time_label_text_textcolor">#b2000000</color>
+    <!-- Grid-Time-Media_Item -->
+    <color name="photo_bottom_bar_color">#4c000000</color>
+    <color name="photo_navibar_color">#4c000000</color>
+    <!-- slideshow -->
+    <color name="slideshow_background">#FF000000</color><!-- #1A1A1A -->
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="photo_popwindow_bg">#7FFFFFFF</color>
+	<!--
+    透明度前缀  
+    <0.0 00>
+    <0.1 19>
+    <0.2 33>
+    <0.3 4c>
+    <0.4 66>
+    <0.5 7f>
+    <0.6 99>
+    <0.7 b2>
+    <0.8 cc>
+    <0.9 e5>
+    <1.0  ff>
+    -->
+
+    <!-- filtershow -->
+    <color name="filtershow_categoryview_background">#1a1a1a</color>
+    <color name="filtershow_bluegrey">#ffd8d8d8</color>
+    <color name="filtershow_MSC_bg">#ff282828</color>
+    <color name="filtershow_background">#4C000000</color>
+    <color name="filtershow_LJ_button_background">#4C000000</color>
+    <color name="filtershow_seekbar_bg">#4CFFFFFF</color>
+    <color name="filtershow_line_bg">#19FFFFFF</color>
+    <color name="filtershow_ini_bg">#000000</color>
+    <color name="filtershow_dialog_text_color">#000000</color>
+    <color name="filtershow_btn_text_color_white">#FFFFFFFF</color>
+    <color name="filtershow_btn_text_color_50_white">#80FFFFFF</color>
+    <color name="filtershow_control_mask">#A2000000</color>
+    <!--dialog-->
+    <color name="dialog_button_text_color">#EC4371</color>
+    <color name="dialog_button_text_color_enablefalse">#7F000000</color>
+    <color name="dialog_title_text_color">#000000</color>
+    <color name="dialog_title_message_color">#7F000000</color>
+    <color name="dialog_progress_color">#B2000000</color>
+    <color name="dialog_edit_color">#B2000000</color>
+    <color name="list_view_edge_line">#19000000</color>
+    <color name="list_item_click_bg">#19000000</color>
+    <color name="albumset_timeline_text_color">#B2000000</color>
+    <color name="preference_category_bg">#4CEC4371</color>
+    <color name="m_button_dark_background">#6000</color>
+    <color name="refoucs_seekbar_color">#EEAF00</color>
+</resources>

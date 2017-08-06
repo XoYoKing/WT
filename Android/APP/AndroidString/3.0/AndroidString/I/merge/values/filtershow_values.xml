@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+
+<resources>
+    
+    <bool name="only_use_portrait">true</bool>
+
+    
+    <dimen name="state_panel_text_size">16dip</dimen>
+
+    
+    <dimen name="category_panel_height">86dip</dimen>
+
+    
+    <dimen name="category_panel_icon_size">64dip</dimen>
+
+    
+    <dimen name="category_panel_text_size">13dip</dimen>
+
+    
+    <dimen name="category_panel_margin">4dip</dimen>
+
+    
+    <dimen name="gradcontrol_dot_size">20dip</dimen>
+
+    
+    <dimen name="gradcontrol_min_touch_dist">80dip</dimen>
+
+    
+    <dimen name="draw_rect_border">20dip</dimen>
+
+    
+    <dimen name="draw_rect_shadow">8dip</dimen>
+
+    
+    <dimen name="draw_rect_border_edge">2dip</dimen>
+
+    
+    <dimen name="draw_rect_round">10dip</dimen>
+
+    
+    <dimen name="draw_style_icon_dim">42dip</dimen>
+
+    
+    <dimen name="draw_color_icon_dim">42dip</dimen>
+
+    
+    <dimen name="draw_color_check_dim">5dip</dimen>
+
+    
+    <dimen name="draw_ui_width">192dip</dimen>
+
+    
+    <dimen name="edge_glow_size">50dip</dimen>
+</resources>

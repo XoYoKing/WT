@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <dimen name="overlay_preview_margin">2dp</dimen>
+    <dimen name="overlay_shadow_margin">5dp</dimen>
+    <dimen name="overlay_min_side">45dp</dimen>
+    <dimen name="overlay_touch_tolerance">20dp</dimen>
+    
+</resources>

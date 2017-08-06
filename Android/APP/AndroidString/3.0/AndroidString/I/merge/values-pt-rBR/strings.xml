@@ -1,0 +1,431 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  <plurals name="delete_selection">
+    <item quantity="one" msgid="6453379735401083732">"Excluir o item selecionado?"</item>
+    <item quantity="other" msgid="5874316486520635333">"Excluir os itens selecionados?"</item>
+  </plurals>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  <plurals name="number_of_items_selected">
+    <item quantity="zero" msgid="2142579311530586258">"%1$d selecionado(s)"</item>
+    <item quantity="one" msgid="2478365152745637768">"%1$d selecionado(s)"</item>
+    <item quantity="other" msgid="754722656147810487">"%1$d selecionado(s)"</item>
+  </plurals>
+  <plurals name="number_of_albums_selected">
+    <item quantity="zero" msgid="749292746814788132">"%1$d selecionado(s)"</item>
+    <item quantity="one" msgid="6184377003099987825">"%1$d selecionado(s)"</item>
+    <item quantity="other" msgid="53105607141906130">"%1$d selecionado(s)"</item>
+  </plurals>
+  <plurals name="number_of_groups_selected">
+    <item quantity="zero" msgid="3466388370310869238">"%1$d selecionado(s)"</item>
+    <item quantity="one" msgid="5030162638216034260">"%1$d selecionado(s)"</item>
+    <item quantity="other" msgid="3512041363942842738">"%1$d selecionado(s)"</item>
+  </plurals>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  <plurals name="make_albums_available_offline">
+    <item quantity="one" msgid="2171596356101611086">"Disponibilizando álbum off-line."</item>
+    <item quantity="other" msgid="4948604338155959389">"Disponibilizando álbuns off-line."</item>
+  </plurals>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  <plurals name="ingest_number_of_items_scanned">
+    <item quantity="zero" msgid="2623289390474007396">"%1$d itens verificados"</item>
+    <item quantity="one" msgid="4340019444460561648">"%1$d item verificado"</item>
+    <item quantity="other" msgid="3138021473860555499">"%1$d itens verificados"</item>
+  </plurals>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  <plurals name="pref_camera_timer_entry">
+    <item quantity="one" msgid="1654523400981245448">"Um segundo"</item>
+    <item quantity="other" msgid="6455381617076792481">"%d segundos"</item>
+  </plurals>
+    
+    <skip />
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <skip />
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  <plurals name="number_of_photos">
+    <item quantity="one" msgid="6949174783125614798">"%1$d foto"</item>
+    <item quantity="other" msgid="3813306834113858135">"%1$d fotos"</item>
+  </plurals>
+    <plurals name="ingest_number_of_items_selected">
+        <item quantity="zero">%1$d itens selecionados</item>
+        <item quantity="one">%1$d item selecionado</item>
+        <item quantity="other">%1$d itens selecionados</item>
+    </plurals>
+</resources>

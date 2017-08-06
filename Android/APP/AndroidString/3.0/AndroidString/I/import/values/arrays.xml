@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="setting_slide_effect_values">
+        <item>@string/set_hdp_gddh_1</item>
+        <item>@string/set_hdp_gddh_2</item>
+        <item>@string/set_hdp_gddh_3</item>
+        <item>@string/set_hdp_gddh_4</item>
+        <item>@string/set_hdp_gddh_5</item>
+    </string-array>
+    <string-array name="setting_slide_effect_values_value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="setting_paly_interval_values">
+        <item>@string/set_hdp_bgjg_3</item>
+        <item>@string/set_hdp_bgjg_5</item>
+        <item>@string/set_hdp_bgjg_10</item>
+    </string-array>
+    <string-array name="setting_paly_interval_int_values">
+        <item>3</item>
+        <item>5</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="photopage_more_menu"><!--带位置信息菜单-->
+        <item>@string/show_on_map</item>
+        <item>@string/result_list_action_do_rename</item>
+        <item>@string/bottom_control_button_move_title</item>
+        <item>@string/result_list_action_do_setas</item>
+        <item>@string/left_rotation</item>
+        <item>@string/right_rotation</item>
+        <item>@string/result_list_action_do_slideplay</item>
+        <item>@string/result_list_action_do_detial</item>
+    </string-array>
+    <string-array name="photopage_more_menu_without_location"> <!--不带位置信息菜单-->
+        <item>@string/result_list_action_do_rename</item>
+        <item>@string/bottom_control_button_move_title</item>
+        <item>@string/result_list_action_do_setas</item>
+        <item>@string/left_rotation</item>
+        <item>@string/right_rotation</item>
+        <item>@string/result_list_action_do_slideplay</item>
+        <item>@string/result_list_action_do_detial</item>
+    </string-array>
+    <string-array name="photopage_more_menu_face">
+        <item>@string/left_rotation</item>
+        <item>@string/right_rotation</item>
+        <item>@string/result_list_action_do_detial</item>
+    </string-array>
+</resources>

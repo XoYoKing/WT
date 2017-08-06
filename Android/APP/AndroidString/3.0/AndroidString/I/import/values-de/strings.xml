@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" msgid="1928079047368929634">"Galerie"</string>
+    <string name="app_name_s">Alben</string>
+    <string name="que_ding">"OK"</string>
+    <string name="qu_xiao">"Abbrechen"</string>
+    <string name="tab_title_time">"Uhrzeit"</string>
+    <string name="tab_title_folder">"Alben"</string>
+    <string name="tab_title_face"></string>
+    <string name="permissions_request_ok"></string>
+    <string name="permissions_request_right_now"></string>
+    <string name="permissions_can_not_use"></string>
+    <string name="permissions_shuoming_start"></string>
+    <string name="permissions_shuoming_end"></string>
+    <string name="wt_gallery_fx">Teilen</string>
+    <string name="wt_gallery_sc">Löschen</string>
+    <string name="wt_gallery_qx">Alles auswählen</string>
+    <string name="wt_gallery_qxqx">Alle abwählen</string>
+    <string name="wt_gallery_bj">Editieren</string>
+    <string name="wt_gallery_gd">Mehr</string>
+    <string name="wt_gallery_xz">Wählen Sie</string>
+    <string name="delete_selection_one">"Ausgewählte Elemente löschen?"</string>
+    <string name="delete_selection_other">"Ausgewählte Elemente löschen?"</string>
+    <string name="main_btn1">Gleiteffekt 1</string>
+    <string name="main_btn2">Gleiteffekt 2</string>
+    <string name="main_btn3">Gleiteffekt 3</string>
+    <string name="main_btn4">Gleiteffekt 4</string>
+    <string name="jingle_slide_title">Diashow</string>
+    <string name="jingle_slide_okbtn">OK</string>
+    <string name="jingle_slide_xbtn">Abbrechen</string>
+    <string name="jingle_slide_finished">Das Ende</string>
+    <string name="jingle_slide_oom">Nicht genügend Speicher</string>
+    <string name="result_list_action_do_rename">Umbenennen</string>
+    <string name="result_list_action_do_move">Umgezogen nach</string>
+    <string name="result_list_action_do_copy">Kopieren</string>
+    <string name="result_list_action_do_cut">Schneiden</string>
+    <string name="result_list_action_do_setas">Einstellen</string>
+    <string name="result_list_action_do_settag">Tag angeben</string>
+    <string name="result_list_action_do_settag_time">Zeit</string>
+    <string name="result_list_action_do_settag_position">Ort</string>
+    <string name="result_list_action_do_settag_renwu">Name der Person</string>
+    <string name="result_list_action_do_detial">Einzelheiten</string>
+    <string name="result_list_action_do_slideplay">Diashow</string>
+    <string name="result_list_action_do_pintu">Collage</string>
+    <string name="result_list_action_do_set">Einstellungen</string>
+    <string name="result_list_action_do_rename_xc">Benennen Sie das Album um</string>
+    <string name="result_list_action_do_add_xc">Neues Album</string>
+    <string name="result_list_action_do_rename_xp">Umbenennen</string>
+    <string name="result_list_action_do_add_face"></string>
+    <string name="bottom_control_button_move"></string>
+    <string name="bottom_control_button_move_title">Umgezogen nach</string>
+    <string name="bottom_control_button_detial"></string>
+    <string name="bottom_control_button_rename">Umbenennen</string>
+    <string name="bottom_control_button_hebing"></string>
+    <string name="setting">Einstellungen</string>
+    <string name="set_xianshi">Anzeige</string>
+    <string name="set_hdp">Wiedergabeeffekt Slide</string>
+    <string name="set_chuanping">Bildschirmübertragung</string>
+    <string name="set_xianshi_title1">Zeigt die Aufnahmedauer während der Fotoanzeige an</string>
+    <string name="set_xianshi_title2">Zeigt den Aufnahmestandort während der Fotoanzeige an</string>
+    <string name="set_hdp_defaultValue1">0</string>
+    <string name="set_hdp_gddh_1">Zoom</string>
+    <string name="set_hdp_gddh_2">Fließen</string>
+    <string name="set_hdp_gddh_3">Würfel</string>
+    <string name="set_hdp_gddh_4">Ausblenden</string>
+    <string name="set_hdp_gddh_5">Umdrehen</string>
+    <string name="set_hdp_dialogTitle1">Übergangsanimation</string>
+    <string name="set_hdp_dialogTitle2">Wiedergabeintervall</string>
+    <string name="set_hdp_defaultValue2">3</string>
+    <string name="set_hdp_bgjg_3">3s</string>
+    <string name="set_hdp_bgjg_5">5s</string>
+    <string name="set_hdp_bgjg_10">10s</string>
+    <string name="setting_interval_value_format"></string>
+    <string name="set_chuanping_title">Wenn ein Bild übergeben wird, wird der Bildschirm kontinuierlich verteilt.</string>
+    <string name="dlg_detial_title">"Details"</string>
+    <string name="dlg_detial_close">Schließen</string>
+    <string name="dlg_detial_list_name"></string>
+    <string name="dlg_detial_list_size">Größe</string>
+    <string name="dlg_detial_list_count"></string>
+    <string name="dlg_detial_list_location">Orte</string><!--from:location -->
+    <string name="gallery_albumset_name_sdcard">SD-Karte</string>
+    <string name="rename_folder"></string>
+    <string name="rename_folder_exist"></string>
+    <string name="rename_folder_create_fail"></string>
+    <string name="target_folder"></string>
+    <string name="target_folder_exist"></string>
+    <string name="target_folder_not_exist"></string>
+    <string name="wt_gallery_xjxc">Neues Album</string>
+    <string name="wt_gallery_xjxcmc">Name des neuen Albums</string>
+    <string name="do_move_success"></string>
+    <string name="do_new_album_success"></string>
+    <string name="bottom_control_button_edit">"Bearbeiten"</string>
+    <string name="bottom_control_button_more">Mehr</string>
+    <string name="title_activity_filtershow" msgid="2036539130684382763">"Fotoeditor"</string>
+    <string name="filtershow_top_title_cancel_btn">Abbrechen</string>
+    <string name="filtershow_top_title_save_btn">"Speichern"</string>
+    <string name="filtershow_top_title_adel">Wählen Sie Foto</string>
+    <string name="filtershow_xz">Drehen</string>
+    <string name="filtershow_xz_left"></string>
+    <string name="filtershow_xz_right"></string>
+    <string name="filtershow_xz_mirror">Spiegeln</string>
+    <string name="filtershow_xj">Zuschneiden</string>
+    <string name="filtershow_xj_ini">Original</string>
+    <string name="filtershow_xj_1">1:1</string>
+    <string name="filtershow_xj_4">4:3</string>
+    <string name="filtershow_xj_3">3:4</string>
+    <string name="filtershow_xj_16">16:9</string>
+    <string name="filtershow_xj_9">9:16</string>
+    <string name="filtershow_lvjin">Filter</string>
+    <string name="filtershow_lvjin_Gray">Grau</string>
+    <string name="filtershow_lvjin_Mosatic"></string>
+    <string name="filtershow_lvjin_LOMO">LOMO</string>
+    <string name="filtershow_lvjin_Nostalgic"></string>
+    <string name="filtershow_lvjin_Comics"></string>
+    <string name="filtershow_lvjin_Brown">Latte</string>
+    <string name="filtershow_lvjin_SketchPencil"></string>
+    <string name="filtershow_mf">Schönheit</string>
+    <string name="filtershow_mf_Saturation">Sättigung</string>
+    <string name="filtershow_mf_Brightness">Helligkeit</string>
+    <string name="filtershow_mf_Contrast">Kontrast</string>
+    <string name="filtershow_msc"></string>
+    <string name="filtershow_add_button_looks" msgid="8630823661416925426">"Voreinstellung"</string>
+    <string name="filtershow_add_button_versions" msgid="7620107266685809612">"Version"</string>
+    <string name="filtershow_msc_5">5</string>
+    <string name="filtershow_msc_10">10</string>
+    <string name="filtershow_msc_15">15</string>
+    <string name="filtershow_msc_20">20</string>
+    <string name="filtershow_msc_30">30</string>
+    <string name="filtershow_msc_eraser"></string>
+    <string name="filtershow_msc_pen"></string>
+    <string name="filtershow_msc_undo"></string>
+    <string name="filtershow_cropactivity">Zuschneiden</string>
+    <string name="filtershow_crop_label">"Bild zuschneiden"</string>
+    <string name="filtershow_select_image">"Foto auswählen"</string>
+    <string name="filtershow_trim_label">"Video schneiden"</string>
+    <string name="filtershow_dlg_trimvideochoose_saveas"></string>
+    <string name="filtershow_dlg_trimvideochoose_save"></string>
+    <string name="filtershow_dlg_trimvideochoose_cancel">Abbrechen</string>
+    <string name="can_not_trim">Fehler, das Video kann nicht geschnitten werden.</string>
+    <string name="save_into" msgid="9155488424829609229">"Video wird in <xliff:g id="ALBUM_NAME">%1$s</xliff:g> gespeichert…"</string>
+    <string name="m_audiofocus_request_failed_message">Video kann während eines Anrufs nicht wiedergegeben warden.</string>
+    <string name="storage_not_enough">"Zu wenig Speicherplatz auf dem Datenträger."</string>
+    <string name="trimming" msgid="9122385768369143997">"Wird zugeschnitten"</string>
+    <string name="please_wait" msgid="7296066089146487366">"Bitte warten"</string>
+    <string name="accessibility_time_bar" msgid="1414029843602604531">"Zeitleiste des Videoplayers"</string>
+    <string name="accessibility_play_video" msgid="7596298365794810207">"Video ansehen"</string>
+    <string name="accessibility_pause_video" msgid="6526344477133046653">"Video anhalten"</string>
+    <string name="accessibility_reload_video" msgid="3250335917598607232">"Video erneut laden"</string>
+    <string name="filtershow_crop_saved">Gerettet</string>
+    <string name="share_limit">Maximal 300 Dateien können geteilt werden.</string>
+    <string name="gallery_please_select">Bitte auswählen</string>
+    <string name="show_on_map" msgid="6157544221201750980">"Auf Karte anzeigen"</string>
+    <string name="right_rotation"></string>
+    <string name="left_rotation"></string>
+    <string name="lock_wallpaper">Sperrbildschirmhintergrund</string>
+    <string name="desktop_wallpaper">Startbildschirmhintergrund</string>
+    <string name="contact_photo">Kontaktfoto</string>
+    <string name="option_rename_same">Gleicher Name</string>
+    <string name="appwidget_empty_text" msgid="1228925628357366957">"Keine Fotos vorhanden"</string>
+    <string name="appwidget_title" msgid="6410561146863700411">"Fotogalerie"</string>
+    <string name="widget_type" msgid="1364653978966343448">"Bilder auswählen"</string>
+    <string name="widget_type_album" msgid="6013045393140135468">"Album auswählen"</string>
+    <string name="widget_load_failed">Widget konnte nicht geladen werden</string>
+    <string name="no_such_item" msgid="5315144556325243400">"Bild wurde nicht gefunden."</string>
+    <string name="permission_denied"></string>
+    <string name="rename_photo_success">Успішно перейменовано</string>
+    <string name="title">Titel</string>
+    <string name="description" msgid="3016729318096557520">"Beschreibung"</string>
+    <string name="time" msgid="1367953006052876956">"Uhrzeit"</string>
+    <string name="location" msgid="3432705876921618314">"Ort"</string>
+    <string name="path" msgid="4725740395885105824">"Pfad"</string>
+    <string name="width" msgid="9215847239714321097">"Breite"</string>
+    <string name="height" msgid="3648885449443787772">"Höhe"</string>
+    <string name="orientation" msgid="4958327983165245513">"Ausrichtung"</string>
+    <string name="duration" msgid="8160058911218541616">"Dauer"</string>
+    <string name="mimetype" msgid="8024168704337990470">"MIME-Typ"</string>
+    <string name="file_size" msgid="8486169301588318915">"Dateigröße"</string>
+    <string name="maker" msgid="7921835498034236197">"Hersteller"</string>
+    <string name="model" msgid="8240207064064337366">"Modell"</string>
+    <string name="flash" msgid="2816779031261147723">"Blitz"</string>
+    <string name="aperture" msgid="5920657630303915195">"Blende"</string>
+    <string name="focal_length" msgid="1291383769749877010">"Brennweite"</string>
+    <string name="white_balance" msgid="1582509289994216078">"Weißabgleich"</string>
+    <string name="exposure_time" msgid="3990163680281058826">"Belichtungszeit"</string>
+    <string name="iso" msgid="5028296664327335940">"ISO"</string>
+    <string name="m_no_map_tip">Bitte Kartenapplikation installieren.</string>
+    <string name="tab_title_position">Standort</string>
+    <string name="gallery_ask_easylink_stop">Stoppen Sie den Bildschirm teilen?</string>
+    <string name="selected_pictures">Foto auswählen (%1$d/%2$d)</string>
+    <string name="is_save_other"></string>
+    <string name="save_selected"></string>
+    <string name="save_all"></string>
+    <string name="unknown" msgid="3506693015896912952">"Unbekannt"</string>
+    <string name="format_progress" formatted="false">%1$d/%2$d</string>
+    <string name="format_progress_precent" formatted="false">%1$d%%</string>
+    <string name="folder_camera" msgid="4714658994809533480">"Kamera"</string>
+    <string name="folder_download" msgid="7186215137642323932">"Downloads"</string>
+    <string name="folder_edited_online_photos" msgid="6278215510236800181">"Bearbeitete Online-Fotos"</string>
+    <string name="folder_imported" msgid="2773581395524747099">"Importiert"</string>
+    <string name="folder_screenshot" msgid="7200396565864213450">"Screenshots"</string>
+    <string name="folder_weixin"></string>
+    <string name="folder_camera_image">Foto</string>
+    <string name="folder_camera_video">Video</string>
+    <string name="result_list_action_do_del_image">del image</string>
+    <string name="result_list_action_do_share_to">share to</string>
+    <string name="app_weixin">Wechat</string>
+    <string name="app_line">Line</string>
+    <string name="app_facebook">Facebook</string>
+    <string name="result_list_action_do_share_to_app_weixin">share to Wechat</string>
+    <string name="result_list_action_do_share_to_app_line">share to Line</string>
+    <string name="result_list_action_do_share_to_app_facebook">share to Facebook</string>
+    <string name="result_list_action_do_share_to_bluetouch">share to bluetouch</string>
+    <string name="tab_title_photo">Photo</string>
+</resources>

@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="m_button_dark_transparent_background">#6000</color>
+    <color name="m_background_thumbnail_track_background">#1a1a1a</color>
+    <color name="m_background_thumbnail_track_text">#a7a7a7</color>
+
+    <drawable name="m_button_refine_pressed">#ff333333</drawable>
+    <drawable name="m_button_refine_unpressed">#99333333</drawable>
+    <drawable name="m_button_refine_disabled">#cc999999</drawable>
+
+    <color name="default_background">#FFFFFF</color>
+    <color name="albumset_background">#FFFFFF </color>
+    <color name="albumset_placeholder">#BFBFBF</color>
+    <color name="albumset_label_background">#EE414143</color>
+    <color name="albumset_label_title">#FBFBFB</color>
+    <color name="albumset_label_count">#A9ABAD</color>
+    
+    <color name="albumset_topbar_text_color">#FFFFFFFF</color><!-- FF000000 -->
+    <color name="albumset_timeline_text_color">#B2000000</color>
+    <color name="albumset_timeline_color_timeline">#33000000</color>
+    
+    <color name="album_background">#FFFFFF</color>
+    <color name="album_placeholder">#BFBFBF</color>
+    <color name="photo_background">#FF000000</color><!-- FF000000 --><!-- 252525 -->
+    <color name="photo_placeholder">#333</color><!-- FF000000 --><!-- 333 -->
+    <color name="cache_background">#FFFFFF</color>
+    <color name="cache_placeholder">#333</color>
+    <color name="bitmap_screennail_placeholder">#333</color>
+    <color name="slideshow_background">#FF000000</color><!-- #1A1A1A -->
+    <color name="m_button_dark_refocus_background">#6000</color>
+    <color name="button_dark_transparent_background">#6000</color>
+    <color name="ingest_highlight_semitransparent">#8833b5e5</color>
+    <color name="ingest_date_tile_text">#33b5e5</color>
+    <color name="recording_time_elapsed_text">#FFFFFFFF</color>
+    <color name="recording_time_remaining_text">#FFFF0033</color>
+    <color name="on_viewfinder_label_background_color">#77333333</color>
+    <color name="review_control_pressed_color">#FF33B5E5</color>
+    <color name="review_control_pressed_fan_color">#3F33B5E5</color>
+    <color name="review_background">#FF000000</color>
+    <color name="icon_disabled_color">#DD777777</color>
+    <color name="time_lapse_arc">#FFC5C5C5</color>
+    <color name="indicator_background">#40000000</color>
+    <color name="popup_title_color">#ff33b5e5</color>
+    <color name="popup_background">#ff282828</color>
+    <color name="pano_progress_empty">#FF2E2E2E</color>
+    <color name="pano_progress_done">#FF33525E</color>
+    <color name="pano_progress_indication">#FF0099CC</color>
+    <color name="pano_progress_indication_fast">#FFFF2222</color>
+    <color name="mode_selection_border">#33B5E5</color>
+    <color name="holo_blue_light">#ff33b5e5</color>
+    <color name="bright_foreground_disabled_holo_dark">#ff4c4c4c</color>
+    <color name="bright_foreground_holo_dark">#fff3f3f3</color>
+    <color name="face_detect_start">#80ffffff</color>
+    <color name="face_detect_success">#8050d060</color>
+    <color name="face_detect_fail">#80d05060</color>
+    <color name="gray">#FFAAAAAA</color>
+    <color name="jingle_pintu_half_transparent">#60FFFFFF</color>
+    <color name="jingle_pintu_bgcolor_transparent">#00000000</color>
+    <color name="jingle_pintu_bgcolor_default">#656565</color>
+    <color name="jingle_pintu_bgcolor_white">#FFF</color>
+    <color name="jingle_pintu_bgcolor_black">#000</color>
+    <color name="jingle_pintu_bgcolor_redwhite">#F46C6C</color>
+    <color name="jingle_pintu_bgcolor_bluewhite">#88CAFA</color>
+    <color name="jingle_pintu_bgcolor_greenwhite">#9DEA6A</color>
+    <color name="jingle_pintu_bgcolor_yellowdark">#FFE958</color>
+    <color name="jingle_pintu_bgcolor_red">#F00</color>
+    <color name="jingle_pintu_bgcolor_green">#0F0</color>
+    <color name="jingle_pintu_bgcolor_blue">#00F</color>
+    <color name="jingle_pintu_bgcolor_lightblue">#0FF</color>
+    <color name="jingle_pintu_bgcolor_redpurple">#F0F</color>
+    <color name="jingle_pintu_bgcolor_yellowbright">#FF0</color>
+    <color name="jingle_pintu_bgcolor_bluesky">#07F</color>
+    <color name="jingle_pintu_bgcolor_bluepurple">#70F</color>
+    <color name="jingle_pintu_bgcolor_orangedark">#F70</color>
+    <color name="color_accent">#DA4336</color>
+    <color name="color_primary_dark">#32000000</color>
+    <color name="status_bar">#80E5E5E5</color>
+    <color name="bg_status_bar">#33000000</color>
+    <color name="bg_status_bar_inphotopage">#B2000000</color>
+    <color name="bg_nav_bar">#000000</color>
+    <color name="top_tab_line">#4C000000</color>
+    <color name="bg_gallery_primary">#ec4371</color>
+    <color name="text_line_disabled">#33000000</color>
+    <color name="text_hint_disabled">#7F000000</color>
+    <color name="text_primary_disabled">#dbdbdb</color>
+    <color name="ripple">#80D0D0D0</color>
+    <color name="bottom_bar_color">#e5e5e5</color>
+</resources>

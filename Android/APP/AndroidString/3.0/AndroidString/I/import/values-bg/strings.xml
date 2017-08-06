@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" msgid="1928079047368929634">"Галерия"</string>
+    <string name="app_name_s">lbums</string>
+    <string name="que_ding">ok</string>
+    <string name="qu_xiao">cancel</string>
+    <string name="tab_title_time">time</string>
+    <string name="tab_title_folder">albums</string>
+    <string name="tab_title_face"></string>
+    <string name="permissions_request_ok"></string>
+    <string name="permissions_request_right_now"></string>
+    <string name="permissions_can_not_use"></string>
+    <string name="permissions_shuoming_start"></string>
+    <string name="permissions_shuoming_end"></string>
+    <string name="wt_gallery_fx">Споделяне</string>
+    <string name="wt_gallery_sc">Изтриване</string>
+    <string name="wt_gallery_qx">Избиране на всички</string>
+    <string name="wt_gallery_qxqx">Премахване на отметките от всички</string>
+    <string name="wt_gallery_bj">Редактиране</string>
+    <string name="wt_gallery_gd">Още</string>
+    <string name="wt_gallery_xz">Избиране</string>
+    <string name="delete_selection_one">delete_selection</string>
+    <string name="delete_selection_other">delete_selection</string>
+    <string name="main_btn1">Ефект при плъзгане по екрана 1</string>
+    <string name="main_btn2">Ефект при плъзгане по екрана 2</string>
+    <string name="main_btn3">Ефект при плъзгане по екрана 3</string>
+    <string name="main_btn4">Ефект при плъзгане по екрана 4</string>
+    <string name="jingle_slide_title">Слайдшоу</string>
+    <string name="jingle_slide_okbtn">OK</string>
+    <string name="jingle_slide_xbtn">Отказ</string>
+    <string name="jingle_slide_finished">Край</string>
+    <string name="jingle_slide_oom">Недостатъчна памет</string>
+    <string name="result_list_action_do_rename">Преименуване</string>
+    <string name="result_list_action_do_move">Преместено във</string>
+    <string name="result_list_action_do_copy">Копиране</string>
+    <string name="result_list_action_do_cut">Изрязване</string>
+    <string name="result_list_action_do_setas">Задаване на</string>
+    <string name="result_list_action_do_settag">Посочване на маркер</string>
+    <string name="result_list_action_do_settag_time">Час</string>
+    <string name="result_list_action_do_settag_position">Местоположение</string>
+    <string name="result_list_action_do_settag_renwu">Име на лице</string>
+    <string name="result_list_action_do_detial">Подробности</string>
+    <string name="result_list_action_do_slideplay">Слайдшоу</string>
+    <string name="result_list_action_do_pintu">Колаж</string>
+    <string name="result_list_action_do_set">Настройки</string>
+    <string name="result_list_action_do_rename_xc">Преименуване на албума</string>
+    <string name="result_list_action_do_add_xc">Нов албум</string>
+    <string name="result_list_action_do_rename_xp">Преименуване</string>
+    <string name="result_list_action_do_add_face"></string>
+    <string name="bottom_control_button_move"></string>
+    <string name="bottom_control_button_move_title">result_list_action_do_move</string>
+    <string name="bottom_control_button_detial"></string>
+    <string name="bottom_control_button_rename">wt_gallery_cmm</string>
+    <string name="bottom_control_button_hebing"></string>
+    <string name="setting">settings</string>
+    <string name="set_xianshi">Дисплей</string>
+    <string name="set_hdp">Възпроизвеждане на ефект на плъзгане</string>
+    <string name="set_chuanping">Предаване на екрана</string>
+    <string name="set_xianshi_title1">Извеждане на часа на снимане при показване на снимката</string>
+    <string name="set_xianshi_title2">Извеждане на местоположението на снимане при показване на снимката</string>
+    <string name="set_hdp_defaultValue1">0</string>
+    <string name="set_hdp_gddh_1">Мащабиране</string>
+    <string name="set_hdp_gddh_2">Поток</string>
+    <string name="set_hdp_gddh_3">Куб</string>
+    <string name="set_hdp_gddh_4">Затъмнение</string>
+    <string name="set_hdp_gddh_5">Обръщане</string>
+    <string name="set_hdp_dialogTitle1">Анимация при преходи</string>
+    <string name="set_hdp_dialogTitle2">Интервал при възпроизвеждане</string>
+    <string name="set_hdp_defaultValue2">3</string>
+    <string name="set_hdp_bgjg_3">3 с</string>
+    <string name="set_hdp_bgjg_5">5 с</string>
+    <string name="set_hdp_bgjg_10">10 с</string>
+    <string name="setting_interval_value_format"></string>
+    <string name="set_chuanping_title">Когато се подава снимка, екранът се разширява непрекъснато </string>
+    <string name="dlg_detial_title">details</string>
+    <string name="dlg_detial_close">close</string>
+    <string name="dlg_detial_list_name"></string>
+    <string name="dlg_detial_list_size">size</string>
+    <string name="dlg_detial_list_count"></string>
+    <string name="dlg_detial_list_location">location</string><!--from:location -->
+    <string name="gallery_albumset_name_sdcard">SD карта</string>
+    <string name="rename_folder"></string>
+    <string name="rename_folder_exist"></string>
+    <string name="rename_folder_create_fail"></string>
+    <string name="target_folder"></string>
+    <string name="target_folder_exist"></string>
+    <string name="target_folder_not_exist"></string>
+    <string name="wt_gallery_xjxc">Нов албум</string>
+    <string name="wt_gallery_xjxcmc">Име на новия албум</string>
+    <string name="do_move_success"></string>
+    <string name="do_new_album_success"></string>
+    <string name="bottom_control_button_edit">edit</string>
+    <string name="bottom_control_button_more">wt_gallery_gd</string>
+    <string name="title_activity_filtershow" msgid="2036539130684382763">"Фоторедактор"</string>
+    <string name="filtershow_top_title_cancel_btn">cancel</string>
+    <string name="filtershow_top_title_save_btn">m_save</string>
+    <string name="filtershow_top_title_adel">jingle_adel_title</string>
+    <string name="filtershow_xz">wt_gallery_xuanzhuan</string>
+    <string name="filtershow_xz_left"></string>
+    <string name="filtershow_xz_right"></string>
+    <string name="filtershow_xz_mirror">mirror</string>
+    <string name="filtershow_xj">trim_action</string>
+    <string name="filtershow_xj_ini">original</string>
+    <string name="filtershow_xj_1">1:1</string>
+    <string name="filtershow_xj_4">4:3</string>
+    <string name="filtershow_xj_3">3:4</string>
+    <string name="filtershow_xj_16">16:9</string>
+    <string name="filtershow_xj_9">9:16</string>
+    <string name="filtershow_lvjin">wt_gallery_lvjin</string>
+    <string name="filtershow_lvjin_Gray">subtitle_text_color_gray</string>
+    <string name="filtershow_lvjin_Mosatic"></string>
+    <string name="filtershow_lvjin_LOMO">LOMO</string>
+    <string name="filtershow_lvjin_Nostalgic"></string>
+    <string name="filtershow_lvjin_Comics"></string>
+    <string name="filtershow_lvjin_Brown">ffx_washout</string>
+    <string name="filtershow_lvjin_SketchPencil"></string>
+    <string name="filtershow_mf">wt_gallery_mf</string>
+    <string name="filtershow_mf_Saturation">editor_grad_saturation</string>
+    <string name="filtershow_mf_Brightness">editor_grad_brightness</string>
+    <string name="filtershow_mf_Contrast">editor_grad_contrast</string>
+    <string name="filtershow_msc"></string>
+    <string name="filtershow_add_button_looks" msgid="8630823661416925426">"Готова настройка"</string>
+    <string name="filtershow_add_button_versions" msgid="7620107266685809612">"Версия"</string>
+    <string name="filtershow_msc_5">5</string>
+    <string name="filtershow_msc_10">10</string>
+    <string name="filtershow_msc_15">15</string>
+    <string name="filtershow_msc_20">20</string>
+    <string name="filtershow_msc_30">30</string>
+    <string name="filtershow_msc_eraser"></string>
+    <string name="filtershow_msc_pen"></string>
+    <string name="filtershow_msc_undo"></string>
+    <string name="filtershow_cropactivity">crop</string>
+    <string name="filtershow_crop_label">crop_label</string>
+    <string name="filtershow_select_image">select_image</string>
+    <string name="filtershow_trim_label">trim_label</string>
+    <string name="filtershow_dlg_trimvideochoose_saveas"></string>
+    <string name="filtershow_dlg_trimvideochoose_save"></string>
+    <string name="filtershow_dlg_trimvideochoose_cancel">cancel</string>
+    <string name="can_not_trim">Възникване на грешка. Видеото не може да се обработва.</string><!-- MTK Video Cut (start)-->
+    <string name="save_into" msgid="9155488424829609229">"Видеоклипът се запазва в/ъв „<xliff:g id="ALBUM_NAME">%1$s</xliff:g>“…"</string>
+    <string name="m_audiofocus_request_failed_message">Не може да се възпроизвежда видео по време на повикване.</string>
+    <string name="storage_not_enough">"Няма достатъчно място в паметта."</string>
+    <string name="trimming" msgid="9122385768369143997">"Отрязва се"</string>
+    <string name="please_wait" msgid="7296066089146487366">"Моля, изчакайте"</string>
+    <string name="accessibility_time_bar" msgid="1414029843602604531">"Времева лента на видеоплейъра"</string>
+    <string name="accessibility_play_video" msgid="7596298365794810207">"Пускане на видеоклипа"</string>
+    <string name="accessibility_pause_video" msgid="6526344477133046653">"Поставяне на видеоклипа на пауза"</string>
+    <string name="accessibility_reload_video" msgid="3250335917598607232">"Презареждане на видеоклипа"</string>
+    <string name="filtershow_crop_saved">jingle_pintu_finished</string>
+    <string name="share_limit">Не мога да споделя повече от 300 файла.</string>
+    <string name="gallery_please_select">Моля, изберете</string>
+    <string name="show_on_map" msgid="6157544221201750980">"Показване на карта"</string>
+    <string name="right_rotation"></string>
+    <string name="left_rotation"></string>
+    <string name="lock_wallpaper">Тапет на заключения екран</string>
+    <string name="desktop_wallpaper">Тапет на работния плот</string>
+    <string name="contact_photo">Контактна снимка</string>
+    <string name="option_rename_same">Същото име</string>
+    <string name="appwidget_empty_text" msgid="1228925628357366957">"Няма снимки."</string>
+    <string name="appwidget_title" msgid="6410561146863700411">"Фотогалерия"</string>
+    <string name="widget_type" msgid="1364653978966343448">"Избор на изображения"</string>
+    <string name="widget_type_album" msgid="6013045393140135468">"Избор на албум"</string>
+    <string name="widget_load_failed">Неуспешно сваляне на иконка</string>
+    <string name="no_such_item" msgid="5315144556325243400">"Елементът не можа да бъде намерен."</string>
+    <string name="permission_denied"></string>
+    <string name="rename_photo_success">Преименуването е успешно</string>
+    <string name="title">bookmark_title</string>
+    <string name="description" msgid="3016729318096557520">"Описание"</string>
+    <string name="time" msgid="1367953006052876956">"Час"</string>
+    <string name="location" msgid="3432705876921618314">"Местоположение"</string>
+    <string name="path" msgid="4725740395885105824">"Път"</string>
+    <string name="width" msgid="9215847239714321097">"Ширина"</string>
+    <string name="height" msgid="3648885449443787772">"Височина"</string>
+    <string name="orientation" msgid="4958327983165245513">"Ориентация"</string>
+    <string name="duration" msgid="8160058911218541616">"Времетраене"</string>
+    <string name="mimetype" msgid="8024168704337990470">"Тип MIME"</string>
+    <string name="file_size" msgid="8486169301588318915">"Файл: Размер"</string>
+    <string name="maker" msgid="7921835498034236197">"Автор"</string>
+    <string name="model" msgid="8240207064064337366">"Модел"</string>
+    <string name="flash" msgid="2816779031261147723">"Светкавица"</string>
+    <string name="aperture" msgid="5920657630303915195">"Бленда"</string>
+    <string name="focal_length" msgid="1291383769749877010">"Дълж. на фокус"</string>
+    <string name="white_balance" msgid="1582509289994216078">"Бяло: Баланс"</string>
+    <string name="exposure_time" msgid="3990163680281058826">"Експонация"</string>
+    <string name="iso" msgid="5028296664327335940">"ISO"</string>
+    <string name="m_no_map_tip">Инсталирайте приложението за карти.</string>
+    <string name="tab_title_position">pref_camera_location_label</string>
+    <string name="gallery_ask_easylink_stop">Да се спре ли споделянето на екрана?</string>
+    <string name="selected_pictures">select_image (%1$d/%2$d)</string>
+    <string name="is_save_other"></string>
+    <string name="save_selected"></string>
+    <string name="save_all"></string>
+    <string name="unknown" msgid="3506693015896912952">"Неизвестно"</string>
+    <string name="format_progress" formatted="false">%1$d/%2$d</string>
+    <string name="format_progress_precent" formatted="false">%1$d%%</string>
+    <string name="folder_camera" msgid="4714658994809533480">"Камера"</string>
+    <string name="folder_download" msgid="7186215137642323932">"Изтегляне"</string>
+    <string name="folder_edited_online_photos" msgid="6278215510236800181">"Редактирани снимки онлайн"</string>
+    <string name="folder_imported" msgid="2773581395524747099">"Импортирани"</string>
+    <string name="folder_screenshot" msgid="7200396565864213450">"Екранна снимка"</string>
+    <string name="folder_weixin"></string>
+    <string name="folder_camera_image">navi_photo</string>
+    <string name="folder_camera_video">share_format_video</string>
+    <string name="result_list_action_do_del_image">del image</string>
+    <string name="result_list_action_do_share_to">share to</string>
+    <string name="app_weixin">Wechat</string>
+    <string name="app_line">Line</string>
+    <string name="app_facebook">Facebook</string>
+    <string name="result_list_action_do_share_to_app_weixin">share to Wechat</string>
+    <string name="result_list_action_do_share_to_app_line">share to Line</string>
+    <string name="result_list_action_do_share_to_app_facebook">share to Facebook</string>
+    <string name="result_list_action_do_share_to_bluetouch">share to bluetouch</string>
+    <string name="tab_title_photo">Photo</string>
+</resources>

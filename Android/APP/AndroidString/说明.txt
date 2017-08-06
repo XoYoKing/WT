@@ -1,0 +1,9 @@
+以3.0为例：
+【1】导入资源文件
+adb push XXXXX\AndroidString\3.0 /sdcard
+【2】安装 AndroidString_vXXX.apk
+【3】依次点击初始化、导入、合并、导出按钮
+【4】导出资源文件
+adb pull /storage/emulated/0/AndroidString/O/export d:\_temp
+【5】将XXX.TXT文件的内容直接复制，粘帖到excel即可
+示例的最终excel文件见《Gallery3.0含人脸和简单相册.xlsx》

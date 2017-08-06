@@ -1,0 +1,199 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">12dp</dimen>
+    <dimen name="activity_vertical_margin">12dp</dimen>
+    <!-- 标题栏-高度 -->
+    <dimen name="title_bar_height">48dp</dimen>
+    <dimen name="title_bar_height_normal">48dp</dimen>
+    <dimen name="title_bar_height_simple">68dp</dimen>
+    <!-- 标题栏-字体大小 -->
+    <dimen name="title_bar_textsize">20sp</dimen>
+    <dimen name="title_bar_textsize_simple">30sp</dimen>
+    <!-- 弹出菜单-高度 -->
+    <dimen name="pop_menu_item_min_height">53dp</dimen>
+    <dimen name="pop_menu_item_min_height_simple">80dp</dimen>
+    <!-- 弹出菜单-间距 -->
+    <dimen name="pop_menu_padding_start">36dp</dimen>
+    <dimen name="pop_menu_padding_start_simple">29dp</dimen>
+    <dimen name="pop_menu_item_padding_start">12dp</dimen>
+    <dimen name="pop_menu_item_padding_start_simple">20dp</dimen>
+    <dimen name="pop_menu_item_padding_top_simple">24dp</dimen>
+    <dimen name="pop_menu_item_padding_bottom_simple">24dp</dimen>
+    <!-- 弹出菜单-字体大小 -->
+    <dimen name="pop_menu_textsize">16sp</dimen>
+    <dimen name="pop_menu_textsize_simple">27sp</dimen>
+    <!-- 详情窗口-字体大小 -->
+    <dimen name="detial_title_textsize">20sp</dimen>
+    <dimen name="detial_title_textsize_simple">27sp</dimen>
+    <dimen name="detial_button_textsize">16sp</dimen>
+    <dimen name="detial_button_textsize_simple">20sp</dimen>
+    <dimen name="detial_item_textsize">16sp</dimen>
+    <dimen name="detial_item_textsize_simple">20sp</dimen>
+    <dimen name="detial_padding_start">20dp</dimen>
+    <dimen name="detial_padding_start_simple">20dp</dimen>
+    <dimen name="detial_padding_end">20dp</dimen>
+    <dimen name="detial_padding_end_simple">20dp</dimen>
+    <!-- 删除窗口-字体大小 -->
+    <dimen name="delete_title_textsize">20sp</dimen>
+    <dimen name="delete_title_textsize_simple">27sp</dimen>
+    <dimen name="delete_button_textsize">16sp</dimen>
+    <dimen name="delete_button_textsize_simple">20sp</dimen>
+    <dimen name="delete_item_textsize">16sp</dimen>
+    <dimen name="delete_item_textsize_simple">20sp</dimen>
+    <dimen name="delete_padding_start">20dp</dimen>
+    <dimen name="delete_padding_start_simple">20dp</dimen>
+    <dimen name="delete_padding_end">20dp</dimen>
+    <dimen name="delete_padding_end_simple">20dp</dimen>
+    <!-- TAB栏-字体大小 -->
+    <dimen name="tab_bar_height">53dp</dimen>
+    <dimen name="tab_item_text_size">16dp</dimen>
+    <!-- PICK ALBUM栏-字体大小 -->
+    <dimen name="pick_album_bar_height">36dp</dimen>
+    <dimen name="pick_album_item_text_size">16dp</dimen>
+    <!-- 阴影栏-顶部 -->
+    <dimen name="yy_top_bar_height">3dp</dimen>
+    <!-- 底部栏- -->
+    <dimen name="bottom_control_margintop">8dp</dimen>
+    <dimen name="bottom_contorl_text_size">10dp</dimen><!-- 10sp -->
+    <dimen name="bottom_contorl_text_size_simple">27dp</dimen><!-- 27sp -->
+
+    <!-- Grid-Album_Item -->
+    <dimen name="album_grid_padding_left">8.0dip</dimen>
+    <dimen name="album_grid_padding_right">8.0dip</dimen>
+    <dimen name="album_grid_padding_top">10.0dip</dimen>
+    <dimen name="album_grid_padding_bottom">10.0dip</dimen>
+    <dimen name="album_grid_horizontal_spacing">8.0dip</dimen>
+    <dimen name="album_grid_vertical_spacing">8.0dip</dimen>
+    <dimen name="album_item_checkbox_margin_right">0.0dip</dimen>
+    <dimen name="album_item_checkbox_margin_top">0.0dip</dimen>
+    <dimen name="album_item_thumb_width">150dip</dimen>
+    <dimen name="album_item_label_height">24dip</dimen>
+    <dimen name="album_item_label_padding_bottom">12dip</dimen>
+    <dimen name="album_item_label_padding_left">4dip</dimen>
+    <dimen name="album_item_label_padding_right">4dip</dimen>
+    <dimen name="album_item_label_textsize">12dip</dimen>
+    <!-- Grid-Album_Item simple -->
+    <dimen name="album_grid_padding_left_simple">6.0dip</dimen>
+    <dimen name="album_grid_padding_right_simple">6.0dip</dimen>
+    <dimen name="album_grid_padding_top_simple">9.0dip</dimen>
+    <dimen name="album_grid_padding_bottom_simple">9.0dip</dimen>
+    <dimen name="album_grid_horizontal_spacing_simple">6.0dip</dimen>
+    <dimen name="album_grid_vertical_spacing_simple">6.0dip</dimen>
+    <dimen name="album_item_label_textsize_simple">27dip</dimen>
+    <!-- Grid-Media_Item -->
+    <dimen name="media_grid_padding_left">8.0dip</dimen>
+    <dimen name="media_grid_padding_right">8.0dip</dimen>
+    <dimen name="media_grid_padding_top">10.0dip</dimen>
+    <dimen name="media_grid_padding_bottom">10.0dip</dimen>
+    <dimen name="media_grid_horizontal_spacing">8.0dip</dimen>
+    <dimen name="media_grid_vertical_spacing">8.0dip</dimen>
+    <dimen name="media_item_checkbox_margin_right">0.0dip</dimen>
+    <dimen name="media_item_checkbox_margin_top">0.0dip</dimen>
+    <dimen name="media_item_thumb_width">70dip</dimen>
+    <!-- Grid-Media_Item simple -->
+    <dimen name="media_grid_padding_left_simple">5.0dip</dimen>
+    <dimen name="media_grid_padding_right_simple">5.0dip</dimen>
+    <dimen name="media_grid_padding_top_simple">5.0dip</dimen>
+    <dimen name="media_grid_padding_bottom_simple">5.0dip</dimen>
+    <dimen name="media_grid_horizontal_spacing_simple">5.0dip</dimen>
+    <dimen name="media_grid_vertical_spacing_simple">5.0dip</dimen>
+    <!-- Grid-Time-Line -->
+    <dimen name="time_line_width">1dip</dimen>
+    <dimen name="time_line_marginleft">15dip</dimen>
+    <!-- Grid-Time-Label -->
+    <dimen name="time_label_height">40.0dip</dimen>
+    <dimen name="time_label_margintop_top">0.0dip</dimen>
+    <dimen name="time_label_margintop_bottom">0.0dip</dimen>
+    <dimen name="time_label_text_padding_left">12.0dip</dimen>
+    <dimen name="time_label_text_padding_bottom">8.0dip</dimen>
+    <dimen name="time_label_text_size">14dp</dimen>
+    <dimen name="time_point_padding_left">-15.0dip</dimen>
+    <!-- Grid-Time-Media_Item -->
+    <dimen name="media_time_grid_padding_left">8.0dip</dimen>
+    <dimen name="media_time_grid_padding_right">8.0dip</dimen>
+    <dimen name="media_time_grid_padding_top">8.0dip</dimen>
+    <dimen name="media_time_grid_padding_bottom">8.0dip</dimen>
+    <dimen name="media_time_grid_horizontal_spacing">8.0dip</dimen>
+    <dimen name="media_time_grid_vertical_spacing">8.0dip</dimen>
+    <!-- Grid-Time-Media_Item small -->
+    <dimen name="media_time_grid_padding_left_small">4.0dip</dimen>
+    <dimen name="media_time_grid_padding_right_small">4.0dip</dimen>
+    <dimen name="media_time_grid_padding_top_small">4.0dip</dimen>
+    <dimen name="media_time_grid_padding_bottom_small">4.0dip</dimen>
+    <dimen name="media_time_grid_horizontal_spacing_small">4.0dip</dimen>
+    <dimen name="media_time_grid_vertical_spacing_small">4.0dip</dimen>
+    <!-- activity_set -->
+    <dimen name="activity_set_title_height">48dp</dimen>
+    <dimen name="activity_set_text_size_medium">12sp</dimen>
+    <dimen name="activity_set_text_size_large">16sp</dimen>
+    <dimen name="activity_set_text_size_title_large">20sp</dimen>
+    <dimen name="pintu_thumbnail_bitmap_width">120dip</dimen>
+    <dimen name="pintu_text_size">14dp</dimen>
+    <dimen name="morebutton_offset_height">53dp</dimen>
+    <dimen name="bottom_control_height">53dp</dimen>
+    <dimen name="photopage_topbar_height">72dp</dimen>
+    <!--photoactivity-->
+    <dimen name="photopage_topbar_icon_width">33dp</dimen>
+    <dimen name="photopage_topbar_icon_height">33dp</dimen>
+    <dimen name="photopage_topbar_margin_land">12dp</dimen>
+    <dimen name="photopage_setas_dialog_width">298dp</dimen>
+    <dimen name="photo_locationtxt_marginbottom">118dp</dimen>
+    <dimen name="photo_locationtxt_marginright">14dp</dimen>
+    <dimen name="photo_entericon_bottom">112dp</dimen>
+    <dimen name="system_status_bar_height">24dp</dimen>
+
+
+    <!-- filtershow -->
+    <!-- 身体变形 -->
+    <dimen name="filtershow_topbar_icon_height_for_simple">40dp</dimen>
+    <dimen name="filtershow_topbar_icon_width_for_simple">40dp</dimen>
+    <dimen name="filtershow_gap_between_Title_and_PictureShow">24dp</dimen>
+    <dimen name="max_dist">40dip</dimen>
+    <dimen name="warp_line">15dip</dimen>
+    <dimen name="submenu_height">82dp</dimen>
+    <dimen name="savemenu_height">48dp</dimen>
+    <dimen name="filtershow_mainpanel_top">8dp</dimen>
+    <dimen name="filtershow_category_top">10dp</dimen>
+    <dimen name="filtershow_category_LJ_top">4dp</dimen>
+    <dimen name="filtershow_msc_size_height">40dp</dimen>
+    <dimen name="filtershow_seekbar_height">2.0dp</dimen>
+    <dimen name="filtershow_imageview_height">468dp</dimen>
+    <dimen name="filtershow_imageview_height_ZJ">390dp</dimen>
+    <dimen name="filtershow_imageview_height_MF">350dp</dimen>
+    <dimen name="statusbar_height">24dp</dimen>
+    <dimen name="filter_label_height">30.0dip</dimen>
+    <!-- Height of the bottom navigation / system bar. -->
+    <dimen name="system_navigation_bar_height">@*android:dimen/navigation_bar_height</dimen>
+
+    <!--widget-->
+    <dimen name="appwidget_width">80dp</dimen>
+    <dimen name="appwidget_height">40dp</dimen>
+    <dimen name="stack_photo_width">160dp</dimen>
+    <dimen name="stack_photo_height">120dp</dimen>
+
+    <!--dialog-->
+    <dimen name="popWindow_width">219dp</dimen>
+    <dimen name="dialog_button_text_size">14dp</dimen>
+    <dimen name="dialog_button_text_size_simple">20dp</dimen>
+    <dimen name="dialog_title_text_size">20dp</dimen>
+    <dimen name="dialog_title_text_size_simple">27dp</dimen>
+    <dimen name="dialog_message_text_size">16dp</dimen>
+    <dimen name="dialog_progress_text_size">10dp</dimen>
+    <dimen name="dialog_edit_text_size">16dp</dimen>
+    <dimen name="dialog_width">310dp</dimen>
+    <dimen name="dialog_max_height">536dp</dimen>
+    <dimen name="dialog_listView_max_height">377dp</dimen>
+    <dimen name="burst_viewpager_margin">34dp</dimen>
+    <dimen name="burst_viewpager_height">344dp</dimen>
+    <dimen name="burst_viewpager_marginstart">60dp</dimen>
+    <dimen name="burst_recycleview_height">88dp</dimen>
+    <dimen name="burst_viewpager_margin_land">10dp</dimen>
+    <dimen name="burst_viewpager_height_land">204dp</dimen>
+    <dimen name="burst_viewpager_marginstart_land">220dp</dimen>
+    <dimen name="burst_recycleview_height_land">70dp</dimen>
+    <dimen name="refocus_seekbar_height">136dp</dimen>
+    <dimen name="refocus_seekbar_width">2dip</dimen>
+    <dimen name="dofview_marginend">20dp</dimen>
+
+</resources>
