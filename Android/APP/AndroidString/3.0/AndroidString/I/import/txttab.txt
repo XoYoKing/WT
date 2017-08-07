@@ -1,0 +1,247 @@
+﻿KEY	values-en	values-zh-rCN	values-zh-rTW	values-ro	values-ru	values-uk	values-es	values-pt-rBR	values-de	values-bg	values
+app_name	Gallery	图库							Galerie	Галерия	Gallery
+app_name_s	Album	相册							Alben	lbums	Album
+app_name_f		人脸相册									Face Album
+que_ding	OK	确定							OK	ok	OK
+qu_xiao	Cancel	取消							Abbrechen	cancel	Cancel
+tab_title_time	Time	时间							Uhrzeit	time	Time
+tab_title_folder	Album	相册							Alben	albums	Album
+tab_title_face	Face	面孔									Face
+permissions_request_ok	Permissions request success	权限获取成功									Permissions request success
+permissions_request_right_now	Permissions request right_now	立即开启									Permissions request right_now
+permissions_can_not_use	Permissions can not use	权限不可用									Permissions can not use
+permissions_shuoming_start	Plean in Setting-Application-Authority，Allow	请在-应用设置-权限-中，允许									Plean in Setting-Application-Authority，Allow
+permissions_shuoming_end	Access to photo, media content and files on your device	访问您设备上的照片、媒体内容和文件									Access to photo, media content and files on your device
+wt_gallery_fx	Share	分享	分享	Partajare	Поделиться	Спільне використання	Compartir	Compartilhar 	Teilen	Споделяне	Share
+wt_gallery_sc	Delete	删除	刪除	Ştergere	Удалить	Видалити	Eliminar	Excluir	Löschen	Изтриване	Delete
+wt_gallery_qx	Select all	全选	全選	Selectare toate	Выбрать все	Вибрати всі	Seleccionar todos	Selecionar tudo	Alles auswählen	Избиране на всички	Select all
+wt_gallery_qxqx	Deselect all	取消全选	取消全選	Deselectare toate	Отменить выбор всего	Скасувати вибір	Deseleccionar todo	Tirar a seleção de tudo	Alle abwählen	Премахване на отметките от всички	Deselect all
+wt_gallery_bj	Edit	编辑	編輯	Editare	Изменить	Змінити	Editar	Editar	Editieren	Редактиране	Edit
+wt_gallery_gd	More	更多	更多	Mai multe	Еще	Ще	Más	Mais 	Mehr	Още	More
+wt_gallery_xz	Select	选择	選擇	Selectare	Выбрать	Вибрати	Seleccionar	Selecionar	Wählen Sie	Избиране	Select
+delete_selection_one	Delete selected items?	要删除所选内容吗？							Ausgewählte Elemente löschen?	delete_selection	Delete selected items?
+delete_selection_other	Delete selected all items?	要删除所选内容吗？							Ausgewählte Elemente löschen?	delete_selection	Delete selected all items?
+main_btn1	Sliding effect 1	幻灯片效果1	幻燈片效果 1	Efect de tranziție 1	Функция перемещения пальца по экрану 1	Функція переміщення пальця по екрану 1	Efecto de deslizamiento 1	Efeito de deslizamento 1	Gleiteffekt 1	Ефект при плъзгане по екрана 1	Sliding effect 1
+main_btn2	Sliding effect 2	幻灯片效果2	幻燈片效果 2	Efect de tranziție 2	Функция перемещения пальца по экрану 2	Функція переміщення пальця по екрану 2	Efecto de deslizamiento 2	Efeito de deslizamento 2	Gleiteffekt 2	Ефект при плъзгане по екрана 2	Sliding effect 2
+main_btn3	Sliding effect 3	幻灯片效果3	幻燈片效果 3	Efect de tranziție 3	Функция перемещения пальца по экрану 3	Функція переміщення пальця по екрану 3	Efecto de deslizamiento 3	Efeito de deslizamento 3	Gleiteffekt 3	Ефект при плъзгане по екрана 3	Sliding effect 3
+main_btn4	Sliding effect 4	幻灯片效果4	幻燈片效果 4	Efect de tranziție 4	Функция перемещения пальца по экрану 4	Функція переміщення пальця по екрану 4	Efecto de deslizamiento 4	Efeito de deslizamento 4	Gleiteffekt 4	Ефект при плъзгане по екрана 4	Sliding effect 4
+jingle_slide_title	Slide show	幻灯片播放	幻燈片播放	Diaporamă	Слайд-шоу	Слайд-шоу	Diapositivas	Apresentação de slides	Diashow	Слайдшоу	Slide show
+jingle_slide_okbtn	OK	确定	確定	OK	OK	OK	De acuerdo	OK	OK	OK	OK
+jingle_slide_xbtn	Cancel	取消	取消	Anulare	Отменить	Скасувати	Cancelar	Cancelar	Abbrechen	Отказ	Cancel
+jingle_slide_finished	The end	播放结束	播放結束	Sfârșit	Конец	Кінець	Fin	Fim 	Das Ende	Край	The end
+jingle_slide_oom	Insufficient memory	内存不足	記憶體不足	Nu există suficientă memorie	Недостаточно памяти	Недостатньо пам\'яті	Memoria insuficiente	Memória insuficiente	Nicht genügend Speicher	Недостатъчна памет	Insufficient memory
+result_list_action_do_rename	Rename	重命名	重新命名	Redenumire	Переименовать	Перейменувати	Renombrar	Renomear	Umbenennen	Преименуване	Rename
+result_list_action_do_move	Moved to	移动到	移動到	Mutat în	Переместить в	Переміщено в	Mover a	Movido para	Umgezogen nach	Преместено във	Moved to
+result_list_action_do_copy	Copy	复制	複製	Copiere	Копировать	Копіювати	Copiar	Copiar	Kopieren	Копиране	Copy
+result_list_action_do_cut	Cut	剪切	剪切	Decupare	Вырезать	Вирізати	Recortar	Recortar	Schneiden	Изрязване	Cut
+result_list_action_do_setas	Set to	设为	設為	Setare ca	Установить как	Установити на	Enviar a	Definir para	Einstellen	Задаване на	Set to
+result_list_action_do_settag	Specify tag	设置标签	設定標籤	Specificați eticheta	Указать метку	Указати мітку	Especificar etiqueta	Especificar tag	Tag angeben	Посочване на маркер	Specify tag
+result_list_action_do_settag_time	Time	时间	時間	Ora	Время	Час	Hora	Hora	Zeit	Час	Time
+result_list_action_do_settag_position	Location	地点	地點	Locație	Местоположение	Місцеположення	Ubicación	Localização	Ort	Местоположение	Location
+result_list_action_do_settag_renwu	Person name	人物名称	人物名稱	Nume persoană	Имя человека	Ім\'я людини	Nombre de la persona	Nome da pessoa	Name der Person	Име на лице	Person name
+result_list_action_do_detial	Details	详细信息	詳情	Detalii	Подробности	Подробиці	Detalles	Detalhes	Einzelheiten	Подробности	Details
+result_list_action_do_slideplay	Slide show	幻灯片播放	幻燈片播放	Diaporamă	Слайд-шоу	Слайд-шоу	Diapositivas	Apresentação de slides	Diashow	Слайдшоу	Slide show
+result_list_action_do_pintu	Collage	拼图	拼圖	Colaj	Коллаж	Колаж	Collage	Colagem 	Collage	Колаж	Collage
+result_list_action_do_set	Settings	设置	設定	Setări	Настройки	Налаштування	Configuración	Configurações	Einstellungen	Настройки	Settings
+result_list_action_do_rename_xc	Rename the album	相册重命名	相冊重新命名	Redenumire album	Переименовать альбом	Перейменувати альбом	Renombrar el álbum	Renomear o álbum 	Benennen Sie das Album um	Преименуване на албума	Rename the album
+result_list_action_do_add_xc	New album	新建相册	新建相冊	Album nou	Новый альбом	Новий альбом	Álbum nuevo	Novo álbum 	Neues Album	Нов албум	New album
+result_list_action_do_rename_xp	Rename	重命名	重新命名	Redenumire	Переименовать	Перейменувати	Renombrar	Renomear	Umbenennen	Преименуване	Rename
+result_list_action_do_add_face	New face	新增面孔									New face
+bottom_control_button_move	Move	移动									Move
+bottom_control_button_move_title	Move to	移动到							Umgezogen nach	result_list_action_do_move	Move to
+bottom_control_button_detial	Details	详情									Details
+bottom_control_button_rename	Rename	重命名							Umbenennen	wt_gallery_cmm	Rename
+bottom_control_button_hebing	Merge	合并									Merge
+setting	Setting	设置							Einstellungen	settings	Setting
+set_xianshi	Display	显示	顯示	Afișaj	Дисплей	Дисплей	Pantalla	Exibição	Anzeige	Дисплей	Display
+set_hdp	Sliding playback effect	幻灯片播放效果	幻燈片播放效果	Efect de tranziție la redare	Функция воспроизведения прокруткой	Функція відтворення прокручуванням	Efecto de reproducción deslizante	Efeito de reprodução de deslizamento	Wiedergabeeffekt Slide	Възпроизвеждане на ефект на плъзгане	Sliding playback effect
+set_chuanping	Screen transmission	传屏	傳屏	Transmisie ecran	Экранный переход	Пересилання екрану	Transmisión de pantalla	Transmissão de tela	Bildschirmübertragung	Предаване на екрана	Screen transmission
+set_xianshi_title1	Display shooting time during photo display	查看时，显示照片拍摄时间	查看時，顯示相片拍攝時間	Afișare oră realizare fotografie în timpul afișării fotografiei	Отображать при показе фотографии время ее создания	Відображати при показі фото час його створення	Mostrar el tiempo del disparo durante la visualización de fotos	Exibir o tempo de exposição durante a exibição da foto	Zeigt die Aufnahmedauer während der Fotoanzeige an	Извеждане на часа на снимане при показване на снимката	Display shooting time during photo display
+set_xianshi_title2	Display shooting location during photo display	查看时，显示照片拍摄地点	查看時，顯示相片拍攝地點	Afișare locație realizare fotografie în timpul afișării fotografiei	Отображать при показе фотографии место ее создания	Відображати при показі фото місце його створення	Mostrar la ubicación del disparo durante la visualización de fotos	Exibir o local de exposição durante a exibição da foto	Zeigt den Aufnahmestandort während der Fotoanzeige an	Извеждане на местоположението на снимане при показване на снимката	Display shooting location during photo display
+set_hdp_defaultValue1	0	缩放	縮放	Focalizare	Масштабирование	Масштабування	Enfocar	Zoom	0	0	Zoom
+set_hdp_gddh_1	Zoom	缩放	縮放	Focalizare	Масштабирование	Масштабування	Enfocar	Zoom	Zoom	Мащабиране	Zoom
+set_hdp_gddh_2	Flow	流动	流動	Curgere	Поток	Потік	Flujo	Fluxo 	Fließen	Поток	Flow
+set_hdp_gddh_3	Cube	立方体	立方體	Cub	Куб	Куб	Cubo	Cubo 	Würfel	Куб	Cube
+set_hdp_gddh_4	Fade out	渐隐	漸隱	Estompare	Затемнение	Затемнення	Desaparecer	Fade out	Ausblenden	Затъмнение	Fade out
+set_hdp_gddh_5	Turn over	翻转	翻轉	Răsucire	Переворот	Переворот	Voltear	Virar 	Umdrehen	Обръщане	Turn over
+set_hdp_dialogTitle1	Transition animation	过渡动画	過渡動畫	Animație tranziție	Анимация перехода	Анімація переходу	Animación de transición	Animação de transição	Übergangsanimation	Анимация при преходи	Transition animation
+set_hdp_dialogTitle2	Playback interval	播放间隔	播放時間間隔	Interval redare	Интервал воспроизведения	Інтервал відтворення	Intervalo de reproducción	Intervalo de reprodução	Wiedergabeintervall	Интервал при възпроизвеждане	Playback interval
+set_hdp_defaultValue2	3	3秒钟	3 秒鐘	3s	3 сек. 	3 с	3s	3s	3	3	3s
+set_hdp_bgjg_3	3s	3秒钟	3 秒鐘	3s	3 сек.	3 с	3s	3s	3s	3 с	3s
+set_hdp_bgjg_5	5s	5秒钟	5 秒鐘	5s	5 сек.	5 с	5s	5s	5s	5 с	5s
+set_hdp_bgjg_10	10s	10秒钟	10 秒鐘	10s	10 сек.	10 с	10s	10s	10s	10 с	10s
+setting_interval_value_format	%ds	%d秒钟									%ds
+set_chuanping_title	When a picture is passed, the screen is continuously spread.	传照片时，连续传屏	傳照片時，連續傳屏 	Când se trece de o imagine, ecranul este distribuit continuu.	При передаче изображения экран непрерывно транслируется.	Після зникнення зображення екран розкриється.	Cuando se pasa una imagen, la pantalla se extiende de forma continua.	Quando uma foto é passada, a tela é alargada continuamente.	Wenn ein Bild übergeben wird, wird der Bildschirm kontinuierlich verteilt.	Когато се подава снимка, екранът се разширява непрекъснато 	When a picture is passed, the screen is continuously spread.
+dlg_detial_title	Details	详细信息							Details	details	Details
+dlg_detial_close	Cancel	关闭							Schließen	close	Cancel
+dlg_detial_list_name	Title：	名称：									Title：
+dlg_detial_list_size	Size：	大小：							Größe	size	Size：
+dlg_detial_list_count	Number：	数量：									Number：
+dlg_detial_list_location	Location：	Location：							Orte	location	Location：
+gallery_albumset_name_sdcard	SD Card	SD卡    	SD卡    	sdcard	SD-карта	sdcard	tarjeta sd	sdcard	SD-Karte	SD карта	sdcard
+rename_folder	Folder	文件夹									Folder
+rename_folder_exist	Folder Exist！	已存在！									Folder Exist！
+rename_folder_create_fail	Folder create fail！	创建失败！									Folder create fail！
+target_folder	Target Folder	目标文件夹									Target Folder
+target_folder_exist	Folder Exist！	已存在！									Folder Exist！
+target_folder_not_exist	Folder no exist！	不存在！									Folder no exist！
+wt_gallery_xjxc	New album	新建相册	新建相簿	Album nou	Новый альбом	Новий альбом	Álbum nuevo	Novo álbum 	Neues Album	Нов албум	New album
+wt_gallery_xjxcmc	Name of new album	新建相册名称	新建相簿名稱	Nume album nou	Название нового альбома	Назва нового альбому	Nombre del álbum nuevo	Nome do novo álbum	Name des neuen Albums	Име на новия албум	Name of new album
+do_move_success	Move success	移动成功									Move success
+do_new_album_success	New album create success	新建相册成功									New album create success
+bottom_control_button_edit	Edit	编辑							Bearbeiten	edit	Edit
+bottom_control_button_more	More	更多							Mehr	wt_gallery_gd	More
+title_activity_filtershow	Photo Editor	照片编辑器							Fotoeditor	Фоторедактор	Photo Editor
+filtershow_top_title_cancel_btn	Cancel	取消							Abbrechen	cancel	Cancel
+filtershow_top_title_save_btn	Save	保存							Speichern	m_save	Save
+filtershow_top_title_adel	Select photo	相片选择							Wählen Sie Foto	jingle_adel_title	Select photo
+filtershow_xz	Rotate	旋转							Drehen	wt_gallery_xuanzhuan	Rotate
+filtershow_xz_left	L-Rotate	左旋转									L-Rotate
+filtershow_xz_right	R-Rotate	右旋转									R-Rotate
+filtershow_xz_mirror	Mirror	镜像							Spiegeln	mirror	Mirror
+filtershow_xj	Clip	修剪							Zuschneiden	trim_action	Clip
+filtershow_xj_ini	Initial	原始							Original	original	Initial
+filtershow_xj_1	1:01	1:01							1:01	1:01	1:01
+filtershow_xj_4	4:03	4:03							4:03	4:03	4:03
+filtershow_xj_3	3:04	3:04							3:04	3:04	3:04
+filtershow_xj_16	16:09	16:09							16:09	16:09	16:09
+filtershow_xj_9	9:16	9:16							9:16	9:16	9:16
+filtershow_lvjin	Filter	滤镜							Filter	wt_gallery_lvjin	Filter
+filtershow_lvjin_Gray	Gray	灰色							Grau	subtitle_text_color_gray	Gray
+filtershow_lvjin_Mosatic	Mosatic	马赛克									Mosatic
+filtershow_lvjin_LOMO	LOMO	LOMO							LOMO	LOMO	LOMO
+filtershow_lvjin_Nostalgic	Nostalgic	怀旧									Nostalgic
+filtershow_lvjin_Comics	Comics	漫画									Comics
+filtershow_lvjin_Brown	Brown	褐色							Latte	ffx_washout	Brown
+filtershow_lvjin_SketchPencil	SketchPencil	铅笔画									SketchPencil
+filtershow_mf	Effects	特效							Schönheit	wt_gallery_mf	Effects
+filtershow_mf_Saturation	Saturation	饱和度							Sättigung	editor_grad_saturation	Saturation
+filtershow_mf_Brightness	Brightness	亮度							Helligkeit	editor_grad_brightness	Brightness
+filtershow_mf_Contrast	Contrast	对比度							Kontrast	editor_grad_contrast	Contrast
+filtershow_msc	Mosaic	马赛克									Mosaic
+filtershow_add_button_looks	Preset	预设							Voreinstellung	Готова настройка	Preset
+filtershow_add_button_versions	Version	版本							Version	Версия	Version
+filtershow_msc_5	5	5							5	5	5
+filtershow_msc_10	10	10							10	10	10
+filtershow_msc_15	15	15							15	15	15
+filtershow_msc_20	20	20							20	20	20
+filtershow_msc_30	30	30							30	30	30
+filtershow_msc_eraser	eraser	橡皮擦									eraser
+filtershow_msc_pen	pen	画笔									pen
+filtershow_msc_undo	undo	上一步									undo
+filtershow_cropactivity	Crop	剪裁							Zuschneiden	crop	Crop
+filtershow_crop_label	Crop picture	剪裁照片							Bild zuschneiden	crop_label	Crop picture
+filtershow_select_image	Select photo	选择照片							Foto auswählen	select_image	Select photo
+filtershow_trim_label	Trim video	剪辑视频							Video schneiden	trim_label	Trim video
+filtershow_crop_saved	Saved	保存成功							Gerettet	jingle_pintu_finished	Saved
+filtershow_dlg_trimvideochoose_saveas	Save as a new Video	储存为新视频									Save as a new Video
+filtershow_dlg_trimvideochoose_save	Saved	覆盖原视频									Save
+filtershow_dlg_trimvideochoose_cancel	Cancel	取消储存							Abbrechen	cancel	Cancel
+can_not_trim	Error occurs,the video cannot be trimmed.	发生错误，无法剪辑该视频。							Fehler, das Video kann nicht geschnitten werden.	Възникване на грешка. Видеото не може да се обработва.	Error occurs,the video cannot be trimmed.
+save_into	Saving video to <xliff:g id="album_name	正在将视频保存到“<xliff:g id=ALBUM_NAME							Video wird in <xliff:g id=ALBUM_NAME	Видеоклипът се запазва в/ъв „<xliff:g id=ALBUM_NAME	Saving video to <xliff:g id="album_name
+m_audiofocus_request_failed_message	Cannot play video during a call.	通话中无法播放视频。							Video kann während eines Anrufs nicht wiedergegeben warden.	Не може да се възпроизвежда видео по време на повикване.	Cannot play video during a call.
+storage_not_enough	The storage does not have enough space.	存储空间不足.							Zu wenig Speicherplatz auf dem Datenträger.	Няма достатъчно място в паметта.	The storage does not have enough space.
+trimming	Trimming	正在剪辑							Wird zugeschnitten	Отрязва се	Trimming
+please_wait	Please wait	请稍候							Bitte warten	Моля, изчакайте	Please wait
+accessibility_time_bar	Video player time bar	视频播放器时间栏							Zeitleiste des Videoplayers	Времева лента на видеоплейъра	Video player time bar
+accessibility_play_video	Play video	播放视频							Video ansehen	Пускане на видеоклипа	Play video
+accessibility_reload_video	Reload video	重新加载视频							Video erneut laden	Презареждане на видеоклипа	Reload video
+accessibility_pause_video	Pause video	暂停视频							Video anhalten	Поставяне на видеоклипа на пауза	Pause video
+share_limit	Cannot share more than 300 files.	分享数量不能超过300。							Maximal 300 Dateien können geteilt werden.	Не мога да споделя повече от 300 файла.	Cannot share more than 300 files.
+gallery_please_select	Please select	请选择	請選擇 	Selectaţi	Выберите	Виберіть	Seleccionar	Favor selecionar	Bitte auswählen	Моля, изберете	Please select
+show_on_map	Shown on the map	在地图上显示							Auf Karte anzeigen	Показване на карта	Shown on the map
+right_rotation	Right rotation	右旋转									Right rotation
+left_rotation	Left rotation	左旋转									Left rotation
+lock_wallpaper	Lock screen wallpaper	锁屏壁纸	螢幕壁紙	Blocare tapet ecran	Обои блокировки экрана	Шпалери екрану блокування			Sperrbildschirmhintergrund	Тапет на заключения екран	Lock screen wallpaper
+desktop_wallpaper	Desktop wallpaper	桌面壁纸	桌面壁紙	Tapet desktop	Обои рабочего стола	Шпалери робочого столу			Startbildschirmhintergrund	Тапет на работния плот	Desktop wallpaper
+wallpaper	Wallpaper	壁纸									Wallpaper
+contact_photo	Contact Shot	联系人照片	連絡人照片	Fotografiere la contact	Снимок контакта	Фото контакту			Kontaktfoto	Контактна снимка	Contact Shot
+option_rename_same	Same name	相同的名字	相同的名字 	Același nume	Идентичное имя	Таке ж ім\'я	Mismo nombre	Mesmo nome	Gleicher Name	Същото име	Same name
+appwidget_empty_text	No photos.	没有照片。							Keine Fotos vorhanden	Няма снимки.	No photos.
+appwidget_title	Photo Gallery	照片							Fotogalerie	Фотогалерия	Photo Gallery
+widget_type	Choose images	选择图片							Bilder auswählen	Избор на изображения	Choose images
+widget_type_album	Choose an album	选择相册							Album auswählen	Избор на албум	Choose an album
+widget_load_failed	Failed to load widget	加载窗口小部件失败							Widget konnte nicht geladen werden	Неуспешно сваляне на иконка	Failed to load widget
+no_such_item	Couldn\'t find item.	找不到指定的项。							Bild wurde nicht gefunden.	Елементът не можа да бъде намерен.	Couldn\'t find item.
+permission_denied	Permission denied	没有权限									Permission denied
+rename_photo_success	Rename successed	重命名完成	重命名完成	Redenumiți succes	Успешно переименовано	Успішно перейменовано			Успішно перейменовано	Преименуването е успешно	Rename successed
+title	Title	标题							Titel	bookmark_title	Title
+description	Description	描述							Beschreibung	Описание	Description
+time	Time	时间							Uhrzeit	Час	Time
+location	Location	地点							Ort	Местоположение	Location
+path	Path	路径							Pfad	Път	Path
+width	Width	宽度							Breite	Ширина	Width
+height	Height	高度							Höhe	Височина	Height
+orientation	Orientation	浏览模式							Ausrichtung	Ориентация	Orientation
+duration	Duration	时长							Dauer	Времетраене	Duration
+mimetype	MIME type	MIME 类型							MIME-Typ	Тип MIME	MIME type
+file_size	File size	文件大小							Dateigröße	Файл: Размер	File size
+maker	Maker	制造商							Hersteller	Автор	Maker
+model	Model	型号							Modell	Модел	Model
+flash	Flash	闪光灯							Blitz	Светкавица	Flash
+aperture	Aperture	光圈							Blende	Бленда	Aperture
+focal_length	Focal Length	焦距							Brennweite	Дълж. на фокус	Focal Length
+white_balance	White balance	白平衡							Weißabgleich	Бяло: Баланс	White balance
+exposure_time	Exposure time	曝光时间							Belichtungszeit	Експонация	Exposure time
+iso	ISO	ISO							ISO	ISO	ISO
+m_no_map_tip	Please install map application.	请安装地图应用。							Bitte Kartenapplikation installieren.	Инсталирайте приложението за карти.	Please install map application.
+tab_title_position	Location	位置							Standort	pref_camera_location_label	Location
+gallery_ask_easylink_stop	Stop share the screen?	停止投屏？	停止投屏？	Opriți partajarea ecranului?	Прекратить демонстрацию экрана?	Припинити надавання екрану?	¿Dejar de compartir la pantalla?	Parar de compartilhar a tela?	Stoppen Sie den Bildschirm teilen?	Да се спре ли споделянето на екрана?	Stop share the screen?
+selected_pictures	selected pictures (%1$d/%2$d)	选择照片 (%1$d/%2$d)							Foto auswählen (%1$d/%2$d)	select_image (%1$d/%2$d)	selected pictures (%1$d/%2$d)
+is_save_other	Do you want to save not choose other photos?	是否保留未选择的其他照片?									Do you want to save not choose other photos?
+save_selected	Only save the selected photos	只保留选中照片									Only save the selected photos
+save_all	Save all	全部保留									Save all
+unknown	unknown	未知							Unbekannt	Неизвестно	unknown
+format_progress	%1$d/%2$d	%1$d/%2$d							%1$d/%2$d	%1$d/%2$d	%1$d/%2$d
+format_progress_precent	%1$d%%	%1$d%%							%1$d%%	%1$d%%	%1$d%%
+folder_camera	Camera	相机							Kamera	Камера	Camera
+folder_download	Download	下载							Downloads	Изтегляне	Download
+folder_edited_online_photos	Edited Online Photos	编辑过的在线照片							Bearbeitete Online-Fotos	Редактирани снимки онлайн	Edited Online Photos
+folder_imported	Imported	已导入							Importiert	Импортирани	Imported
+folder_screenshot	Screenshot	屏幕截图							Screenshots	Екранна снимка	Screenshot
+folder_weixin	WeiXin	微信									WeiXin
+folder_camera_image	Image	照片							Foto	navi_photo	Image
+folder_camera_video	Video	视频							Video	share_format_video	Video
+result_list_action_do_del_image	del image	删除照片							del image	del image	del image
+result_list_action_do_share_to	share to	分享到							share to	share to	share to
+app_weixin	Wechat	微信							Wechat	Wechat	Wechat
+app_line	Line	Line							Line	Line	Line
+app_facebook	Facebook	Facebook							Facebook	Facebook	Facebook
+result_list_action_do_share_to_app_weixin	share to Wechat	分享到微信							share to Wechat	share to Wechat	share to Wechat
+result_list_action_do_share_to_app_line	share to Line	分享到Line							share to Line	share to Line	share to Line
+result_list_action_do_share_to_app_facebook	share to Facebook	分享到Facebook							share to Facebook	share to Facebook	share to Facebook
+result_list_action_do_share_to_bluetouch	share to bluetouch	蓝牙分享							share to bluetouch	share to bluetouch	share to bluetouch
+face_default_name	Untitled face	未命名面孔									Untitled face
+select_faces_merge	Please select 10 albums at most to merge	最多选择10个面孔进行合并									Please select 10 albums at most to merge
+merge_title	Merge the items?	是否合并这些项?									Merge the items?
+bottom_control_button_remove	ReMove	移出									ReMove
+remove_selection_photo	Remove selected items?	是否移出照片?									Remove selected items?
+your_save_method	Your Save Method？	是否保留未选择的其它照片？									Your Save Mathod？
+default_facealbum_name	Face%1$d	面孔%1$d									Face%1$d
+name_cannt_empty	Name cannot be empty	名字不能为空									Name cannot be empty
+face_photo_title		%1$s（%2$d项）									%1$s（%2$d items）
+details_title		第 %1$d 项（共 %2$d 项）：									%1$d of %2$d items:
+wt_gallery_add		添加									Add
+add_face_title		选择面孔									Select face
+tab_title_photo	Photo	照片							Photo	Photo	Photo
+set_guolv_title		过滤									过滤
+set_guolvdizhiliang_title		过滤低质量图片（小于20KB）									过滤低质量图片（小于20KB）
+share		分享									Share
+save		保存									Save
+set_image		将照片设置为									Set picture as
+saving_image		保存图片									Saving picture\u2026
+m_please_wait		请稍候									Please wait
+cannot_load_image		无法加载该图片！									Cannot load the image!
+m_refocus_label		对焦重调									Refocus image
+m_saving_image		保存图片到 <xliff:g id="album_name									Saving picture to <xliff:g id="album_name
+m_refocus_save_fail		保存失败									Failed to save !
+set_as		设置为									Set as
+loading_image		加载图片									Loading image\u2026
+m_general_err_tip		发生错误，退出应用。									Error occurs. App will quit.
+refocus_photo_message		点击照片重新对焦									Click on photo to refocus
+unit_mm		mm									mm
+manual		手动									Manual
+auto		自动									Auto
+flash_on		使用了闪光灯									Flash fired
+flash_off		未使用闪光灯									No flash
+filtershow_save_message	Save Your Change？	是否保存当前更改？									Save Your Change？
