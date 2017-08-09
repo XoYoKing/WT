@@ -1,0 +1,1 @@
+G:\ffmpeg\ffmpeg\ffmpeg.exe -i G:\download\193\001937_1492957200_1492957380.mp4 -vcodec libx264 F:\tuyun\193\001937_1492957200_1492957380.mp4
