@@ -98,10 +98,18 @@ BOOL CDlgLogin::OnInitDialog()
     }
 
 	/*²âÊÔÆ½Ì¨:(1)10.33.25.174  (2)172.10.27.121 (3)10.22.35.22*/
-    GetDlgItem(IDC_IPADDRESS1)->SetWindowText(_T("110.80.12.205")); 
-    GetDlgItem(IDC_EDIT_PORT)->SetWindowText(_T("8089"));
-    GetDlgItem(IDC_EDIT_USERNAME)->SetWindowText(_T("admin"));
-    GetDlgItem(IDC_EDIT_PASSWORD)->SetWindowText(_T("Admin123"));
+    //GetDlgItem(IDC_IPADDRESS1)->SetWindowText(_T("110.80.12.205")); 
+    //GetDlgItem(IDC_EDIT_PORT)->SetWindowText(_T("8089"));
+    //GetDlgItem(IDC_EDIT_USERNAME)->SetWindowText(_T("admin"));
+    //GetDlgItem(IDC_EDIT_PASSWORD)->SetWindowText(_T("Admin123"));
+	
+    GetDlgItem(IDC_IPADDRESS1)->SetWindowText(theApp.m_Basic.m_strCMS_ServerIP); 
+	
+	CString strCMS_Port=_T("");
+	strCMS_Port.Format(_T("%d"),theApp.m_Basic.m_iCMS_Port);
+    GetDlgItem(IDC_EDIT_PORT)->SetWindowText(strCMS_Port);
+    GetDlgItem(IDC_EDIT_USERNAME)->SetWindowText(theApp.m_Basic.m_strCMS_UserName);
+    GetDlgItem(IDC_EDIT_PASSWORD)->SetWindowText(theApp.m_Basic.m_strCMS_PassWord);
 
     return TRUE;  // return TRUE unless you set the focus to a control
     // EXCEPTION: OCX Property Pages should return FALSE

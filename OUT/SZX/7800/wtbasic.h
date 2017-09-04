@@ -14,6 +14,11 @@ public:
 	CString m_strFileLOG;
 	CString m_strFileFFMPEG;
 	
+	CString m_strCMS_ServerIP;
+	int m_iCMS_Port;
+	CString m_strCMS_UserName;
+	CString m_strCMS_PassWord;
+	
 public:
 	BOOL isServiceInit();
 	CString GetSettingString(LPCSTR lpAppName,LPCSTR lpKeyName,LPCSTR lpFileName);

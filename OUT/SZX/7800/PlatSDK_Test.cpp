@@ -168,6 +168,11 @@ BOOL CPlatSDK_TestApp::InitInstance()
     int cmsPort=443;
     CString m_username=_T("admin");
     CString m_password=_T("Admin12345");
+	
+	strcmsIP=theApp.m_Basic.m_strCMS_ServerIP;
+	cmsPort=theApp.m_Basic.m_iCMS_Port;
+	m_username=theApp.m_Basic.m_strCMS_UserName;
+	m_password=theApp.m_Basic.m_strCMS_PassWord;
 
 
     // 1 表示用于性能测试工具  0表示用于平台SDK Demo

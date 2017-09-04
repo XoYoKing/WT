@@ -47,6 +47,36 @@ BOOL CWTBasic::init()
 		return FALSE;
 	}
 	
+	//CString m_strCMS_ServerIP;
+	m_strCMS_ServerIP = GetSettingString("CMS_SERVER","CMS_ServerIP",".\\Config.ini"); 
+	theApp.m_Basic.SaveLog(_T("CWTBasic"),_T("init-m_strCMS_ServerIP="),m_strCMS_ServerIP);
+	if ( m_strCMS_ServerIP.IsEmpty() )
+	{
+		return FALSE;
+	}
+	//int m_iCMS_Port;
+	CString strCMS_ServerPort = GetSettingString("CMS_SERVER","CMS_ServerPort",".\\Config.ini"); 
+	theApp.m_Basic.SaveLog(_T("CWTBasic"),_T("init-strCMS_ServerPort="),strCMS_ServerPort);
+	if ( strCMS_ServerPort.IsEmpty() )
+	{
+		return FALSE;
+	}
+	m_iCMS_Port=atoi(strCMS_ServerPort);
+	//CString m_strCMS_UserName;
+	m_strCMS_UserName = GetSettingString("CMS_SERVER","CMS_UserName",".\\Config.ini"); 
+	theApp.m_Basic.SaveLog(_T("CWTBasic"),_T("init-m_strCMS_UserName="),m_strCMS_UserName);
+	if ( m_strCMS_UserName.IsEmpty() )
+	{
+		return FALSE;
+	}
+	//CString m_strCMS_PassWord;
+	m_strCMS_PassWord = GetSettingString("CMS_SERVER","CMS_PassWord",".\\Config.ini"); 
+	theApp.m_Basic.SaveLog(_T("CWTBasic"),_T("init-m_strCMS_PassWord="),m_strCMS_PassWord);
+	if ( m_strCMS_PassWord.IsEmpty() )
+	{
+		return FALSE;
+	}
+	
 	CString strFileBAT=_T("");
 	strFileBAT.Format(_T("%s%s.BAT"),theApp.m_Basic.m_strFilePathLOG,tmCUR.Format(_T("%Y%m%d_%H%M%S")));
 	theApp.m_Basic.SaveLog(_T("CWTBasic"),_T("init"),strFileBAT);
