@@ -128,13 +128,13 @@ void CPlatSDK_TestDlg::OnTimer(UINT_PTR nIDEvent)
 	strLog.Format("[Check]====================%f====================",dTimeMinute);
 	theApp.m_Basic.SaveLog(_T("CPlatSDK_TestDlg"),_T("OnTimer"),strLog);
 
-	if ( dTimeMinute>30 )
-	{
-		theApp.m_Basic.SaveLog(_T("CPlatSDK_TestDlg"),_T("OnTimer"),_T("[Check]====================关闭===================="));
-		//关闭
-		//::PostMessage(AfxGetMainWnd()->m_hWnd,WM_SYSCOMMAND,SC_CLOSE,NULL);  
-		this->SendMessage(WM_CLOSE);
-	}
+	//if ( dTimeMinute>30 )
+	//{
+	//	theApp.m_Basic.SaveLog(_T("CPlatSDK_TestDlg"),_T("OnTimer"),_T("[Check]====================关闭===================="));
+	//	//关闭
+	//	//::PostMessage(AfxGetMainWnd()->m_hWnd,WM_SYSCOMMAND,SC_CLOSE,NULL);  
+	//	this->SendMessage(WM_CLOSE);
+	//}
 	
 	CDialog::OnTimer(nIDEvent);
 }
@@ -143,47 +143,47 @@ void CPlatSDK_TestDlg::OnClose()
 {
 	// TODO: 在此添加消息处理程序代码和/或调用默认值
 
-	double dTimeMinute=(GetTickCount()-m_Order.m_lTimeNULL)*1.0/(1000.0*60.0);
-	CString strLog=_T("");
-	strLog.Format("[Check]====================%f====================",dTimeMinute);
-	theApp.m_Basic.SaveLog(_T("CPlatSDK_TestDlg"),_T("OnTimer"),strLog);
+	//double dTimeMinute=(GetTickCount()-m_Order.m_lTimeNULL)*1.0/(1000.0*60.0);
+	//CString strLog=_T("");
+	//strLog.Format("[Check]====================%f====================",dTimeMinute);
+	//theApp.m_Basic.SaveLog(_T("CPlatSDK_TestDlg"),_T("OnTimer"),strLog);
 
-	if ( dTimeMinute>29 )
-	{
-		theApp.m_Basic.SaveLog(_T("CPlatSDK_TestDlg"),_T("OnTimer"),_T("[Check]====================重启===================="));
-		//重启1
-		////::PostMessage(AfxGetMainWnd()->m_hWnd,WM_SYSCOMMAND,SC_CLOSE,NULL);  
-		////获取exe程序当前路径  
-		//extern CPlatSDK_TestApp theApp;  
-		//TCHAR szAppName[MAX_PATH];  
-		//:: GetModuleFileName(theApp.m_hInstance, szAppName, MAX_PATH);  
-		//CString strAppFullName;  
-		//strAppFullName.Format(_T("%s"),szAppName);  
-		////重启程序  
-		//STARTUPINFO StartInfo;  
-		//PROCESS_INFORMATION procStruct;  
-		//memset(&StartInfo, 0, sizeof(STARTUPINFO));  
-		//StartInfo.cb = sizeof(STARTUPINFO);  
-		//::CreateProcess(  
-		//	(LPCTSTR)strAppFullName,  
-		//	NULL,  
-		//	NULL,  
-		//	NULL,  
-		//	FALSE,  
-		//	NORMAL_PRIORITY_CLASS,  
-		//	NULL,  
-		//	NULL,  
-		//	&StartInfo,  
-		//	&procStruct);
+	//if ( dTimeMinute>29 )
+	//{
+	//	theApp.m_Basic.SaveLog(_T("CPlatSDK_TestDlg"),_T("OnTimer"),_T("[Check]====================重启===================="));
+	//	//重启1
+	//	////::PostMessage(AfxGetMainWnd()->m_hWnd,WM_SYSCOMMAND,SC_CLOSE,NULL);  
+	//	////获取exe程序当前路径  
+	//	//extern CPlatSDK_TestApp theApp;  
+	//	//TCHAR szAppName[MAX_PATH];  
+	//	//:: GetModuleFileName(theApp.m_hInstance, szAppName, MAX_PATH);  
+	//	//CString strAppFullName;  
+	//	//strAppFullName.Format(_T("%s"),szAppName);  
+	//	////重启程序  
+	//	//STARTUPINFO StartInfo;  
+	//	//PROCESS_INFORMATION procStruct;  
+	//	//memset(&StartInfo, 0, sizeof(STARTUPINFO));  
+	//	//StartInfo.cb = sizeof(STARTUPINFO);  
+	//	//::CreateProcess(  
+	//	//	(LPCTSTR)strAppFullName,  
+	//	//	NULL,  
+	//	//	NULL,  
+	//	//	NULL,  
+	//	//	FALSE,  
+	//	//	NORMAL_PRIORITY_CLASS,  
+	//	//	NULL,  
+	//	//	NULL,  
+	//	//	&StartInfo,  
+	//	//	&procStruct);
 
-		//重启2
-		TCHAR szAppName[MAX_PATH];
-		:: GetModuleFileName(theApp.m_hInstance, szAppName, MAX_PATH);  
-		CString strAppFullName;  
-		strAppFullName.Format(_T("%s"),szAppName);  
-		strAppFullName.Replace(_T(".exe"),_T(".bat"));
-		theApp.m_Basic.RunBAT(strAppFullName);
-	}
+	//	//重启2
+	//	TCHAR szAppName[MAX_PATH];
+	//	:: GetModuleFileName(theApp.m_hInstance, szAppName, MAX_PATH);  
+	//	CString strAppFullName;  
+	//	strAppFullName.Format(_T("%s"),szAppName);  
+	//	strAppFullName.Replace(_T(".exe"),_T(".bat"));
+	//	theApp.m_Basic.RunBAT(strAppFullName);
+	//}
 
 	CDialog::OnClose();
 }
