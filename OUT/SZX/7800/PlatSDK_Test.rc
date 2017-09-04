@@ -1,0 +1,652 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#include ""res\\PlatSDK_Test.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""     // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\PlatSDK_Test.ico"
+IDI_ICON_CELL           ICON                    "res\\Cell.ico"
+IDI_ICON_AREA           ICON                    "res\\controlArea.ico"
+IDI_ICON_DEVICE         ICON                    "res\\Device.ico"
+IDI_ICON_DOOR           ICON                    "res\\ACDoor.ico"
+IDI_ICON_IOIN           ICON                    "res\\deviceAlarmIn.ico"
+IDI_ICON_IOOUT          ICON                    "res\\deviceAlarmOutOn.ico"
+IDI_ICON_ALMHOST        ICON                    "res\\AlarmDevice.ico"
+IDI_ICON_ALMAREA        ICON                    "res\\DefenseArea.ico"
+IDI_ICON_CAM            ICON                    "res\\Camera.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 170, 62
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About PlatSDK_Test"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,14,14,20,20
+    LTEXT           "PlatSDK_Test, Version 1.0",IDC_STATIC,42,14,114,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2015",IDC_STATIC,42,26,114,8
+    DEFPUSHBUTTON   "OK",IDOK,113,41,50,14,WS_GROUP
+END
+
+IDD_PLATSDK_TEST_DIALOG DIALOGEX 0, 0, 825, 471
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "PlatSDK_Test"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "退出",IDOK,775,450,50,14
+    LTEXT           "",IDC_STATIC_SDK_VERSION,773,0,52,12
+    PUSHBUTTON      "清空",IDC_BUTTON_CLEARLIST,637,450,50,14
+    CONTROL         "",IDC_TAB_PLATSUBSYS,"SysTabControl32",0x0,8,3,817,359
+    LTEXT           "SDK Version:",IDC_STATIC,717,0,42,12
+    CONTROL         "",IDC_TAB_COMMON,"SysTabControl32",0x0,4,363,629,101
+    PUSHBUTTON      "查询告警日志",IDC_BUTTON_QUERY_HISTORY_ALARMLOG,758,365,62,14
+    PUSHBUTTON      "查询GPS信息",IDC_BUTTON_QUERY_GPS_INFO,690,366,50,14
+END
+
+IDD_LOGINDLG DIALOGEX 0, 0, 316, 183
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "登录"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "登录",IDOK,80,132,50,14
+    PUSHBUTTON      "取消",IDCANCEL,156,133,50,14
+    LTEXT           "CMS中心",IDC_STATIC,60,38,32,15
+    RTEXT           "端口",IDC_STATIC,60,61,32,15
+    RTEXT           "用户名",IDC_STATIC,60,83,32,15
+    RTEXT           "密码",IDC_STATIC,60,104,32,15
+    CONTROL         "",IDC_IPADDRESS1,"SysIPAddress32",WS_TABSTOP,107,36,100,15
+    EDITTEXT        IDC_EDIT_PORT,107,58,99,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT_USERNAME,107,82,99,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_PASSWORD,107,104,99,14,ES_PASSWORD | ES_AUTOHSCROLL
+END
+
+IDD_DLG_ACS_SUBSYS DIALOGEX 0, 0, 768, 313
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_TAB_RES_TREE,"SysTabControl32",0x0,7,14,145,286
+    CONTROL         "",IDC_TAB_LISTINFO,"SysTabControl32",0x0,161,39,599,261
+END
+
+IDD_DLG_ACDEVICETREE DIALOGEX 0, 0, 137, 265
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_TREE_ACDEV,"SysTreeView32",TVS_HASBUTTONS | TVS_HASLINES | WS_BORDER | WS_HSCROLL | WS_TABSTOP,4,7,133,258
+END
+
+IDD_DLG_ACDOORTREE DIALOGEX 0, 0, 142, 264
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_TREE_ACDOOR,"SysTreeView32",TVS_HASBUTTONS | TVS_HASLINES | WS_BORDER | WS_HSCROLL | WS_TABSTOP,7,7,134,256
+END
+
+IDD_DLG_VSS_SUBSYS DIALOGEX 0, 0, 805, 348
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_TAB_VSSREC_TREE,"SysTabControl32",0x0,7,40,172,287
+    PUSHBUTTON      "预览",IDC_BUTTON_PREVIEW,30,2,55,15
+    PUSHBUTTON      "回放",IDC_BUTTON_PLAYBACK,111,2,55,15
+END
+
+IDD_DLG_ERROR DIALOGEX 0, 0, 625, 92
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_LIST1,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,3,3,621,87
+END
+
+IDD_DLG_ALARMEVENT DIALOGEX 0, 0, 628, 88
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_LIST1,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,3,3,623,82
+END
+
+IDD_DLG_PERSON DIALOGEX 0, 0, 595, 246
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_BORDER | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_LIST1,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,3,5,591,236
+END
+
+IDD_DLG_CARD DIALOGEX 0, 0, 597, 242
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_LIST1,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,3,5,594,236
+END
+
+IDD_DLG_IOTREE DIALOGEX 0, 0, 170, 275
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_TREE_IO,"SysTreeView32",TVS_HASBUTTONS | TVS_HASLINES | WS_HSCROLL | WS_TABSTOP,0,0,169,275
+END
+
+IDD_DLG_ALMHOSTTREE DIALOGEX 0, 0, 170, 275
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_TREE_ALMHOST,"SysTreeView32",TVS_HASBUTTONS | TVS_HASLINES | WS_HSCROLL | WS_TABSTOP,0,0,170,275
+END
+
+IDD_DLG_ALMAREARTREE DIALOGEX 0, 0, 170, 275
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_TREE_ALMAREA,"SysTreeView32",TVS_HASBUTTONS | TVS_HASLINES | WS_HSCROLL | WS_TABSTOP,0,0,169,275
+END
+
+IDD_DLG_SUBSCRIBESTATE DIALOGEX 0, 0, 628, 117
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_LIST1,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,3,3,623,82
+END
+
+IDD_DLG_CAMTREE DIALOGEX 0, 0, 170, 275
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_TREE_CAM,"SysTreeView32",TVS_HASBUTTONS | TVS_HASLINES | WS_HSCROLL | WS_TABSTOP,0,0,170,274
+END
+
+IDD_DLG_ENCODERTREE DIALOGEX 0, 0, 170, 275
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_TREE_ENCODER,"SysTreeView32",TVS_HASBUTTONS | TVS_HASLINES | WS_HSCROLL | WS_TABSTOP,0,0,169,274
+END
+
+IDD_DLG_PREVIEWWIN DIALOGEX 0, 0, 316, 181
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+END
+
+IDD_DLG_PTZ DIALOGEX 0, 0, 122, 251
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "↑",IDC_BTN_PTZ_UP,44,20,30,15
+    LTEXT           "调焦",IDC_STATIC,51,74,17,9
+    LTEXT           "聚焦",IDC_STATIC,51,91,17,9
+    LTEXT           "光圈",IDC_STATIC,51,108,17,9
+    PUSHBUTTON      "↗",IDC_BTN_PTZ_UPRIGHT,79,20,30,15
+    PUSHBUTTON      "←",IDC_BTN_PTZ_LEFT,9,37,30,15
+    PUSHBUTTON      "AUTO",IDC_BTN_PTZ_AUTOSCAN,44,37,30,15
+    PUSHBUTTON      "↖",IDC_BTN_PTZ_UPLEFT,9,20,30,15
+    PUSHBUTTON      "→",IDC_BTN_PTZ_RIGHT,79,37,30,15
+    PUSHBUTTON      "↓",IDC_BTN_PTZ_DOWN,44,54,30,15
+    PUSHBUTTON      "↙",IDC_BTN_PTZ_DOWNLEFT,9,54,30,15
+    PUSHBUTTON      "↘",IDC_BTN_PTZ_DOWNRIGHT,79,54,30,15
+    PUSHBUTTON      "缩",IDC_BTN_PTZ_ZOOMIN,9,71,30,15
+    PUSHBUTTON      "近",IDC_BTN_PTZ_FOCUSNEAR,9,88,30,15
+    PUSHBUTTON      "小",IDC_BTN_PTZ_IRISCLOSE,9,105,30,15
+    PUSHBUTTON      "伸",IDC_BTN_PTZ_ZOOMOUT,79,71,30,15
+    PUSHBUTTON      "远",IDC_BTN_PTZ_FOCUSFAR,79,88,30,15
+    PUSHBUTTON      "大",IDC_BTN_PTZ_IRISOPEN,79,105,30,15
+    LTEXT           "云台速度",IDC_STATIC,9,6,33,8
+    COMBOBOX        IDC_COMBO_PTZSPEED,45,4,61,17,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "预置点",IDC_STATIC,5,121,104,40
+    COMBOBOX        IDC_COMBO_PTZPRESET,10,131,38,17,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "调用",IDC_BTN_PTZ_GOTOPRESET,65,128,38,15
+    PUSHBUTTON      "删除",IDC_BTN_PTZ_CLEPRESET,65,144,38,15
+    PUSHBUTTON      "设置",IDC_BTN_PTZ_SETPRESET,10,145,38,15
+    PUSHBUTTON      "巡航路径",IDC_BTN_PTZ_CRUISE,9,162,93,15
+    GROUPBOX        "预览录像抓图",IDC_STATIC,3,208,114,33
+    PUSHBUTTON      "开始录像",IDC_BTN_STARTRECORD,4,221,35,15
+    PUSHBUTTON      "停止录像",IDC_BTN_PTZ_STOPRECORD,41,221,35,15
+    PUSHBUTTON      "预览抓图",IDC_BTN_CAPPIC,78,221,35,15
+    GROUPBOX        "云台锁定",IDC_STATIC,8,177,102,29
+    PUSHBUTTON      "锁定",IDC_BTN_PTZ_LOCK,12,186,38,15
+    PUSHBUTTON      "解锁",IDC_BTN_PTZ_UNLOCK,60,185,38,15
+END
+
+IDD_DLG_PLAYBACK DIALOGEX 0, 0, 628, 291
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    GROUPBOX        "查询条件",IDC_STATIC_QUERY,503,2,113,116
+    CONTROL         "",IDC_DATETIMEPICKER_BEGINDAY,"SysDateTimePick32",DTS_RIGHTALIGN | WS_TABSTOP,506,22,56,11
+    CONTROL         "",IDC_DATETIMEPICKER_BEGINTIME,"SysDateTimePick32",DTS_RIGHTALIGN | DTS_UPDOWN | WS_TABSTOP | 0x8,565,22,48,11
+    CONTROL         "",IDC_DATETIMEPICKER_ENDDAY,"SysDateTimePick32",DTS_RIGHTALIGN | WS_TABSTOP,506,45,56,11
+    CONTROL         "",IDC_DATETIMEPICKER_ENDTIME,"SysDateTimePick32",DTS_RIGHTALIGN | DTS_UPDOWN | WS_TABSTOP | 0x8,565,45,48,11
+    LTEXT           "开始时间",IDC_STATIC,506,13,33,8
+    LTEXT           "结束时间",IDC_STATIC,506,35,33,8
+    COMBOBOX        IDC_COMBO_STORETYPE,545,100,54,12,CBS_DROPDOWN | NOT WS_VISIBLE | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "存储类型",IDC_STATIC,506,102,33,8,NOT WS_VISIBLE
+    LTEXT           "文件类型",IDC_STATIC,506,60,33,8
+    CONTROL         "计划录像",IDC_CHECK_PlANRECORD,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,546,60,45,8
+    CONTROL         "动测录像",IDC_CHECK_MOVERECORD,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,546,70,42,8
+    CONTROL         "手动录像",IDC_CHECK_MANUALRECORD,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,546,80,43,8
+    CONTROL         "报警录像",IDC_CHECK_ALARMRECORD,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,546,90,44,8
+    PUSHBUTTON      "查询",IDC_BUTTON_QUERYREOCRD,505,122,50,15
+    GROUPBOX        "播放控制",IDC_STATIC,503,202,113,83
+    PUSHBUTTON      "开始回放",IDC_BUTTON_STARTPLAY,563,122,50,15
+    PUSHBUTTON      "暂停",IDC_BUTTON_PAUSE,520,212,40,15
+    PUSHBUTTON      "加速",IDC_BUTTON_PLAYBACKFAST,520,231,40,15
+    PUSHBUTTON      "减速",IDC_BUTTON_PLAYBACKSLOW,568,231,40,15
+    LTEXT           "时间定位",IDC_STATIC,524,266,33,8
+    CONTROL         "",IDC_DATETIMEPICKER_ORIENTATEDAY,"SysDateTimePick32",DTS_RIGHTALIGN | WS_TABSTOP,506,248,56,11
+    CONTROL         "",IDC_DATETIMEPICKER_ORIENTATETIME,"SysDateTimePick32",DTS_RIGHTALIGN | DTS_UPDOWN | WS_TABSTOP | 0x8,565,248,48,11
+    PUSHBUTTON      "定位",IDC_BUTTON_ORIENTATE,568,264,40,15
+    LTEXT           "",IDC_STATIC_PLAYBACKBG,89,33,326,213
+    PUSHBUTTON      "继续",IDC_BUTTON_CONTINUE,568,212,40,15
+    PUSHBUTTON      "开始下载",IDC_BUTTON_STARTDOWNLOAD,505,148,50,15
+    PUSHBUTTON      "停止下载",IDC_BUTTON_STOPDOWNLOAD,563,148,50,15
+    CONTROL         "",IDC_PROGRESS_DOWNLOAD,"msctls_progress32",NOT WS_VISIBLE | WS_BORDER,506,191,108,10
+    LTEXT           "下载进度：",IDC_STATIC,506,179,41,8,NOT WS_VISIBLE
+    GROUPBOX        "下载",IDC_STATIC,503,139,113,32,NOT WS_VISIBLE
+    PUSHBUTTON      "回放抓图",IDC_BUTTON_SNAPSHOT,563,173,50,15
+END
+
+IDD_DLG_CRUISE DIALOGEX 0, 0, 266, 214
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "巡航路径"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDC_BTN_OK,138,180,50,15
+    PUSHBUTTON      "取消",IDC_BTN_CANCEL,198,180,50,15
+    DEFPUSHBUTTON   "添加",IDC_BTN_ADD,18,180,50,15
+    DEFPUSHBUTTON   "删除",IDC_BTN_DEL,78,180,50,15
+    CONTROL         "",IDC_LIST_CRUISE,"SysListView32",LVS_REPORT | LVS_EDITLABELS | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,18,14,230,159
+END
+
+IDD_DLG_PLAYBACKWIN DIALOGEX 0, 0, 316, 181
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+END
+
+IDD_DLG_QUERYRESULT DIALOGEX 0, 0, 617, 91
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_LIST_QUERYRESULT,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,0,1,616,88
+END
+
+IDD_DLG_PREVIEW DIALOGEX 0, 0, 617, 339
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "",IDC_STATIC_PREVIEWBG,57,22,404,238
+    COMBOBOX        IDC_COMBO_WNDNUM,554,325,59,14,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "画面窗口数",IDC_STATIC_WINNUM,508,328,41,8
+    LTEXT           "码流类型",IDC_STATIC,508,313,37,8
+    COMBOBOX        IDC_COMBO_STREAMTYPE,550,310,59,14,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_DLG_TALK DIALOGEX 0, 0, 281, 105
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,192,40,50,14
+    LTEXT           "对讲通道",IDC_STATIC,28,39,33,8
+    EDITTEXT        IDC_EDIT_TALKCHANNEL,85,38,49,12,ES_AUTOHSCROLL
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 163
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 55
+    END
+
+    IDD_PLATSDK_TEST_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 4
+        VERTGUIDE, 662
+        BOTTOMMARGIN, 464
+        HORZGUIDE, 352
+        HORZGUIDE, 457
+    END
+
+    IDD_LOGINDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 309
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 176
+    END
+
+    IDD_DLG_ACS_SUBSYS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 761
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 308
+    END
+
+    IDD_DLG_ACDEVICETREE, DIALOG
+    BEGIN
+        LEFTMARGIN, 4
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 253
+    END
+
+    IDD_DLG_ACDOORTREE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 252
+    END
+
+    IDD_DLG_VSS_SUBSYS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 804
+        TOPMARGIN, 1
+        BOTTOMMARGIN, 346
+    END
+
+    IDD_DLG_ERROR, DIALOG
+    BEGIN
+        LEFTMARGIN, 3
+        RIGHTMARGIN, 516
+        TOPMARGIN, 3
+        BOTTOMMARGIN, 84
+    END
+
+    IDD_DLG_ALARMEVENT, DIALOG
+    BEGIN
+        LEFTMARGIN, 3
+        RIGHTMARGIN, 519
+        TOPMARGIN, 3
+        BOTTOMMARGIN, 80
+    END
+
+    IDD_DLG_PERSON, DIALOG
+    BEGIN
+        LEFTMARGIN, 3
+        RIGHTMARGIN, 486
+        TOPMARGIN, 3
+        BOTTOMMARGIN, 238
+    END
+
+    IDD_DLG_CARD, DIALOG
+    BEGIN
+        LEFTMARGIN, 3
+        RIGHTMARGIN, 488
+        TOPMARGIN, 3
+        BOTTOMMARGIN, 234
+    END
+
+    IDD_DLG_SUBSCRIBESTATE, DIALOG
+    BEGIN
+        LEFTMARGIN, 3
+        RIGHTMARGIN, 519
+        TOPMARGIN, 3
+        BOTTOMMARGIN, 109
+    END
+
+    IDD_DLG_CAMTREE, DIALOG
+    BEGIN
+        RIGHTMARGIN, 162
+        BOTTOMMARGIN, 273
+    END
+
+    IDD_DLG_ENCODERTREE, DIALOG
+    BEGIN
+        RIGHTMARGIN, 168
+    END
+
+    IDD_DLG_PREVIEWWIN, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 309
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 174
+    END
+
+    IDD_DLG_PTZ, DIALOG
+    BEGIN
+        RIGHTMARGIN, 119
+        BOTTOMMARGIN, 248
+    END
+
+    IDD_DLG_CRUISE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 258
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 207
+    END
+
+    IDD_DLG_PLAYBACKWIN, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 309
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 174
+    END
+
+    IDD_DLG_QUERYRESULT, DIALOG
+    BEGIN
+        RIGHTMARGIN, 616
+        TOPMARGIN, 1
+        BOTTOMMARGIN, 89
+    END
+
+    IDD_DLG_PREVIEW, DIALOG
+    BEGIN
+        RIGHTMARGIN, 616
+        BOTTOMMARGIN, 338
+    END
+
+    IDD_DLG_TALK, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 274
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 98
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU_PREVIEW MENU 
+BEGIN
+    POPUP "关闭预览"
+    BEGIN
+        MENUITEM "切换码流",                        ID_CHGSTREAM
+        MENUITEM "开始上墙",                        ID_STARTTVWALL
+        MENUITEM "停止上墙",                        ID_STOPTVWALL
+        MENUITEM "停止播放",                        ID_STOPPLAY
+    END
+END
+
+IDR_MENU_CRUISE MENU 
+BEGIN
+    POPUP "巡航路径"
+    BEGIN
+        MENUITEM "配置巡航路径",                      ID_CRUISE_CONFIG
+        MENUITEM "调用巡航路径",                      ID_CRUISE_START
+        MENUITEM "停止巡航路径",                      ID_CRUISE_STOP
+    END
+END
+
+IDR_MENU_PLAYBACK MENU 
+BEGIN
+    POPUP "关闭回放"
+    BEGIN
+        MENUITEM "停止回放",                        ID_STOPPLAYBACK
+    END
+END
+
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// 英语(美国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904e4"
+        BEGIN
+            VALUE "CompanyName", "TODO: <Company name>"
+            VALUE "FileDescription", "TODO: <File description>"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "PlatSDK_Test.exe"
+            VALUE "LegalCopyright", "TODO: (c) <Company name>.  All rights reserved."
+            VALUE "OriginalFilename", "PlatSDK_Test.exe"
+            VALUE "ProductName", "TODO: <Product name>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1252
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "&About PlatSDK_Test..."
+END
+
+#endif    // 英语(美国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#include "res\PlatSDK_Test.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"     // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
