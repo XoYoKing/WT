@@ -389,13 +389,13 @@ BOOL CWTOrderVideo::ConvertVideo()
 	}
 	CString strFileOut=GetFileOut();
 	CString strFileOutTXT=GetFileOutTXT();
-	if ( theApp.m_Basic.IsFileExist(strFileOut) )
+	if ( theApp.m_Basic.IsFileExist(strFileOut) )//start
 	{
-		if ( theApp.m_Basic.IsFileExist(strFileOut) )
+		if ( theApp.m_Basic.IsFileExist(strFileOutTXT) )//in process
 		{
 			return FALSE;
 		}
-		else
+		else//end
 		{
 			SaveVideToDB();
 			return TRUE;
